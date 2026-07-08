@@ -16,7 +16,8 @@ Use this repo to review and track proposed changes. When changes are ready, appl
 - `index.html`, `styles.css`, and `script.js` control the main homepage layout and nav behavior.
 - `article.js` and `article.css` control shared article-page navigation surfaces.
 - Hub-level `index.html` files are included; individual non-Pulse article folders are intentionally excluded.
-- `housing-market-pulse/` is included in full so individual Pulse city pages can be edited separately.
+- Housing Market Pulse now lives in its own public edit kit:
+  `https://github.com/homesbyisraelhe/homesbyisraelhe-housing-market-pulse-edit-kit`
 
 ## Included Scope
 
@@ -24,9 +25,7 @@ Use this repo to review and track proposed changes. When changes are ready, appl
 - Shared navigation and search scripts
 - Shared styles
 - Hub-level index pages
-- Full generated `housing-market-pulse/` section for individual Pulse-page edits
 - Search/library data and rendering files
-- Full raw `market-trends/data/*.json` market dataset for graph/data-backed views
 - Minimal referenced assets for local preview
 - Production context docs for orientation only
 
@@ -34,5 +33,6 @@ Use this repo to review and track proposed changes. When changes are ready, appl
 
 - Individual article page folders
 - Full image library
+- Housing Market Pulse pages, generator, and market data. Use `homesbyisraelhe-housing-market-pulse-edit-kit` for those edits.
 - Full production deploy artifact
 - Generated `.deploy` output
