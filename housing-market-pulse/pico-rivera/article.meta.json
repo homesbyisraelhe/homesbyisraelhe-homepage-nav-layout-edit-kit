@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-pico-rivera-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "pico-rivera",
+  "title": "Pico Rivera Housing Market Update: July 2026",
+  "seoTitle": "Pico Rivera Housing Market Update: July 2026",
+  "displayTitle": "Pico Rivera Sellers Still Need a Defensible July 2026 Launch",
+  "summary": "Pico Rivera housing market update for July 2026: Supportive signals can help, but overpricing still creates stale days when the home does not match...",
+  "href": "housing-market-pulse/pico-rivera/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 50,
+  "visitorIntent": "I want to understand Pico Rivera market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Do Pico Rivera sellers still have leverage in July 2026?",
+  "primaryAreas": [
+    "Pico Rivera"
+  ],
+  "comparisonAreas": [
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Pico Rivera",
+    "Gateway Cities & Harbor Area",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Pico Rivera",
+    "Gateway Cities & Harbor Area",
+    "Los Angeles County",
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "searchKeywords": [
+    "Pico Rivera housing market",
+    "Pico Rivera real estate market update",
+    "Pico Rivera home prices July 2026",
+    "should I sell my house in Pico Rivera",
+    "Pico Rivera home selling market",
+    "Pico Rivera homes for sale inventory",
+    "Pico Rivera days on market",
+    "Pico Rivera listing price",
+    "Pico Rivera seller market",
+    "Pico Rivera housing market 2026",
+    "Pico Rivera market update sellers",
+    "Pico Rivera median home price",
+    "are home prices dropping in Pico Rivera",
+    "is now a good time to sell in Pico Rivera",
+    "Pico Rivera housing market update",
+    "Pico Rivera market pulse",
+    "Pico Rivera inventory",
+    "Pico Rivera homes for sale market",
+    "Gateway Cities & Harbor Area market data",
+    "Pico Rivera listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Pico Rivera, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/pico-rivera__seller.json",
+  "researchDatabaseKeys": [
+    "pico-rivera",
+    "artesia",
+    "avalon",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5x7-erZ",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Pico Rivera market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5x7-erZ",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: seller leverage with launch discipline. Primary keyword: Pico Rivera housing market update. Google Keyword Planner seed queries: Pico Rivera housing market; Pico Rivera real estate market update; Pico Rivera home prices July 2026; should I sell my house in Pico Rivera; Pico Rivera home selling market; Pico Rivera homes for sale inventory; Pico Rivera days on market; Pico Rivera listing price; Pico Rivera seller market; Pico Rivera housing market 2026; Pico Rivera market update sellers; Pico Rivera median home price; are home prices dropping in Pico Rivera; is now a good time to sell in Pico Rivera. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

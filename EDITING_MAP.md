@@ -4,7 +4,7 @@ Source of truth on this Mac:
 
 `/Users/israelhernandez/Documents/Website Files/homesbyisraelhe-homepage-shell`
 
-This bundle is intentionally focused on homepage layout, navigation behavior, shared navigation/title surfaces, and hub-level pages. It does not include the individual article folders inside Buy, Sell, Homeowners, Move / Relocate, Invest, Local Areas, or Market Pulse.
+This bundle is intentionally focused on homepage layout, navigation behavior, shared navigation/title surfaces, and hub-level pages. It does not include the individual article folders inside Buy, Sell, Homeowners, Move / Relocate, Invest, or Local Areas. The `housing-market-pulse/` section is included in full so Pulse pages can be edited individually.
 
 ## Edit These First
 
@@ -28,7 +28,19 @@ This bundle is intentionally focused on homepage layout, navigation behavior, sh
 - `market-trends/index.html`
 - `search/index.html`
 
-These are hub/search/index pages only. The nested article pages were left out on purpose.
+Most sections above are hub/search/index pages only. The exception is `housing-market-pulse/`, which now includes the full generated Pulse section so each city Pulse page can be edited individually.
+
+## Housing Market Pulse
+
+- `housing-market-pulse/index.html`: main public Pulse hub at `/housing-market-pulse/`.
+- `housing-market-pulse/[city]/index.html`: individual city Pulse pages.
+- `housing-market-pulse/[city]/article.meta.json`: metadata for each generated city Pulse page.
+- `housing-market-pulse/research/*.json`: research packets used by Pulse pages.
+- `scripts/generate-housing-market-pulse-articles.mjs`: source generator for the Pulse section.
+- `market-trends/data/*.json`: real market data files used by Market Trends and the Pulse generator.
+- `content/la-oc-city-zips.json` and `content/research/city-database.json`: supporting location data.
+
+The full raw `market-trends/data/*.json` dataset is included so charts and generated Pulse pages can use real local market data.
 
 ## Search And Library Labels
 

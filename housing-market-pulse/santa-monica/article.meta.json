@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-santa-monica-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "santa-monica",
+  "title": "Santa Monica Housing Market Update: July 2026",
+  "seoTitle": "Santa Monica Housing Market Update: July 2026",
+  "displayTitle": "Santa Monica Sellers Need Sharper Pricing in July 2026",
+  "summary": "Santa Monica housing market update for July 2026: The sale plan needs stronger price proof, cleaner prep, and fewer unresolved buyer objections.",
+  "href": "housing-market-pulse/santa-monica/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 58,
+  "visitorIntent": "I want to understand Santa Monica market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Is it getting harder to sell a home in Santa Monica in July 2026?",
+  "primaryAreas": [
+    "Santa Monica"
+  ],
+  "comparisonAreas": [
+    "Westside",
+    "beverly-hills",
+    "culver-city"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Santa Monica",
+    "Westside",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Santa Monica",
+    "Westside",
+    "Los Angeles County",
+    "Westside",
+    "beverly-hills",
+    "culver-city"
+  ],
+  "searchKeywords": [
+    "Santa Monica housing market",
+    "Santa Monica real estate market update",
+    "Santa Monica home prices July 2026",
+    "should I sell my house in Santa Monica",
+    "Santa Monica home selling market",
+    "Santa Monica homes for sale inventory",
+    "Santa Monica days on market",
+    "Santa Monica listing price",
+    "Santa Monica seller market",
+    "Santa Monica housing market 2026",
+    "Santa Monica market update sellers",
+    "Santa Monica median home price",
+    "are home prices dropping in Santa Monica",
+    "is now a good time to sell in Santa Monica",
+    "Santa Monica housing market update",
+    "Santa Monica market pulse",
+    "Santa Monica inventory",
+    "Santa Monica homes for sale market",
+    "Westside market data",
+    "Santa Monica listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Santa Monica, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/santa-monica__seller.json",
+  "researchDatabaseKeys": [
+    "santa-monica",
+    "beverly-hills",
+    "culver-city",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5pH-15z",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Santa Monica market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5pH-15z",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: inventory competition versus pending demand. Primary keyword: Santa Monica housing market update. Google Keyword Planner seed queries: Santa Monica housing market; Santa Monica real estate market update; Santa Monica home prices July 2026; should I sell my house in Santa Monica; Santa Monica home selling market; Santa Monica homes for sale inventory; Santa Monica days on market; Santa Monica listing price; Santa Monica seller market; Santa Monica housing market 2026; Santa Monica market update sellers; Santa Monica median home price; are home prices dropping in Santa Monica; is now a good time to sell in Santa Monica. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

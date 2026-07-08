@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-la-mirada-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "la-mirada",
+  "title": "La Mirada Housing Market Update: July 2026",
+  "seoTitle": "La Mirada Housing Market Update: July 2026",
+  "displayTitle": "La Mirada Sellers Need Sharper Pricing in July 2026",
+  "summary": "La Mirada housing market update for July 2026: The sale plan needs stronger price proof, cleaner prep, and fewer unresolved buyer objections.",
+  "href": "housing-market-pulse/la-mirada/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 33,
+  "visitorIntent": "I want to understand La Mirada market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Is it getting harder to sell a home in La Mirada in July 2026?",
+  "primaryAreas": [
+    "La Mirada"
+  ],
+  "comparisonAreas": [
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "La Mirada",
+    "Gateway Cities & Harbor Area",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "La Mirada",
+    "Gateway Cities & Harbor Area",
+    "Los Angeles County",
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "searchKeywords": [
+    "La Mirada housing market",
+    "La Mirada real estate market update",
+    "La Mirada home prices July 2026",
+    "should I sell my house in La Mirada",
+    "La Mirada home selling market",
+    "La Mirada homes for sale inventory",
+    "La Mirada days on market",
+    "La Mirada listing price",
+    "La Mirada seller market",
+    "La Mirada housing market 2026",
+    "La Mirada market update sellers",
+    "La Mirada median home price",
+    "are home prices dropping in La Mirada",
+    "is now a good time to sell in La Mirada",
+    "La Mirada housing market update",
+    "La Mirada market pulse",
+    "La Mirada inventory",
+    "La Mirada homes for sale market",
+    "Gateway Cities & Harbor Area market data",
+    "La Mirada listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for La Mirada, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/la-mirada__seller.json",
+  "researchDatabaseKeys": [
+    "la-mirada",
+    "artesia",
+    "avalon",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5p4-iTn",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: La Mirada market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5p4-iTn",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: inventory competition versus pending demand. Primary keyword: La Mirada housing market update. Google Keyword Planner seed queries: La Mirada housing market; La Mirada real estate market update; La Mirada home prices July 2026; should I sell my house in La Mirada; La Mirada home selling market; La Mirada homes for sale inventory; La Mirada days on market; La Mirada listing price; La Mirada seller market; La Mirada housing market 2026; La Mirada market update sellers; La Mirada median home price; are home prices dropping in La Mirada; is now a good time to sell in La Mirada. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

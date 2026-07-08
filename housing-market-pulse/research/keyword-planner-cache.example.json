@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "key": "anaheim__seller",
+      "locationSlug": "anaheim",
+      "locationName": "Anaheim",
+      "internalReaderAvatar": "seller",
+      "tool": "Google Keyword Planner",
+      "accessMethod": "Chrome browser, authenticated Google Ads account",
+      "collectedAt": "2026-07-07",
+      "plannerForecastPeriod": "June 2025 - May 2026",
+      "geoTarget": "United States",
+      "network": "Google",
+      "accountStatusNote": "",
+      "seedLimitNote": "Discover New Keywords accepts up to 10 seed terms per ideas pass.",
+      "seedMetrics": [
+        {
+          "keyword": "anaheim housing market",
+          "averageMonthlySearches": "",
+          "threeMonthChange": "",
+          "yearOverYearChange": "",
+          "competition": "",
+          "topOfPageBidLow": "",
+          "topOfPageBidHigh": ""
+        }
+      ],
+      "keywordIdeasStatus": "",
+      "manualSerpNotes": []
+    }
+  ]
+}

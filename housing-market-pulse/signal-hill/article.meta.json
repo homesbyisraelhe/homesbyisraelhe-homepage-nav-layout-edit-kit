@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-signal-hill-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "signal-hill",
+  "title": "Signal Hill Housing Market Update: July 2026",
+  "seoTitle": "Signal Hill Housing Market Update: July 2026",
+  "displayTitle": "Signal Hill Sellers Need a Careful July 2026 Pricing Read",
+  "summary": "Signal Hill housing market update for July 2026: Use the data as orientation, then confirm recent comps, condition, and buyer objections before...",
+  "href": "housing-market-pulse/signal-hill/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 60,
+  "visitorIntent": "I want to understand Signal Hill market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Can Signal Hill sellers trust the market data before pricing in July 2026?",
+  "primaryAreas": [
+    "Signal Hill"
+  ],
+  "comparisonAreas": [
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Signal Hill",
+    "Gateway Cities & Harbor Area",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Signal Hill",
+    "Gateway Cities & Harbor Area",
+    "Los Angeles County",
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "searchKeywords": [
+    "Signal Hill housing market",
+    "Signal Hill real estate market update",
+    "Signal Hill home prices July 2026",
+    "should I sell my house in Signal Hill",
+    "Signal Hill home selling market",
+    "Signal Hill homes for sale inventory",
+    "Signal Hill days on market",
+    "Signal Hill listing price",
+    "Signal Hill seller market",
+    "Signal Hill housing market 2026",
+    "Signal Hill market update sellers",
+    "Signal Hill median home price",
+    "are home prices dropping in Signal Hill",
+    "is now a good time to sell in Signal Hill",
+    "Signal Hill housing market update",
+    "Signal Hill market pulse",
+    "Signal Hill inventory",
+    "Signal Hill homes for sale market",
+    "Gateway Cities & Harbor Area market data",
+    "Signal Hill listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Signal Hill, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/signal-hill__seller.json",
+  "researchDatabaseKeys": [
+    "signal-hill",
+    "artesia",
+    "avalon",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5xj-KU3",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Signal Hill market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5xj-KU3",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: thin sample pricing confidence. Primary keyword: Signal Hill housing market update. Google Keyword Planner seed queries: Signal Hill housing market; Signal Hill real estate market update; Signal Hill home prices July 2026; should I sell my house in Signal Hill; Signal Hill home selling market; Signal Hill homes for sale inventory; Signal Hill days on market; Signal Hill listing price; Signal Hill seller market; Signal Hill housing market 2026; Signal Hill market update sellers; Signal Hill median home price; are home prices dropping in Signal Hill; is now a good time to sell in Signal Hill. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

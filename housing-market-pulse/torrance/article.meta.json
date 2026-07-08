@@ -1,0 +1,134 @@
+{
+  "topicId": "pulse-torrance-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "torrance",
+  "title": "Torrance Housing Market Update: July 2026",
+  "seoTitle": "Torrance Housing Market Update: July 2026",
+  "displayTitle": "Torrance Sellers Need Sharper Pricing in July 2026",
+  "summary": "Torrance housing market update for July 2026: The sale plan needs stronger price proof, cleaner prep, and fewer unresolved buyer objections.",
+  "href": "housing-market-pulse/torrance/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 63,
+  "visitorIntent": "I want to understand Torrance market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Is it getting harder to sell a home in Torrance in July 2026?",
+  "primaryAreas": [
+    "Torrance"
+  ],
+  "comparisonAreas": [
+    "South Bay & Beach Cities",
+    "redondo-beach",
+    "gardena"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Torrance",
+    "South Bay & Beach Cities",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Torrance",
+    "South Bay & Beach Cities",
+    "Los Angeles County",
+    "South Bay & Beach Cities",
+    "redondo-beach",
+    "gardena"
+  ],
+  "searchKeywords": [
+    "Torrance housing market",
+    "Torrance real estate market update",
+    "Torrance home prices July 2026",
+    "should I sell my house in Torrance",
+    "Torrance home selling market",
+    "Torrance homes for sale inventory",
+    "Torrance days on market",
+    "Torrance listing price",
+    "Torrance seller market",
+    "Torrance housing market 2026",
+    "Torrance market update sellers",
+    "Torrance median home price",
+    "are home prices dropping in Torrance",
+    "is now a good time to sell in Torrance",
+    "Torrance housing market update",
+    "Torrance market pulse",
+    "Torrance inventory",
+    "Torrance homes for sale market",
+    "South Bay & Beach Cities market data",
+    "Torrance listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Torrance, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/torrance__seller.json",
+  "researchDatabaseKeys": [
+    "torrance",
+    "redondo-beach",
+    "gardena",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing",
+    "local-torrance-area-guide"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5p7-3J2",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Torrance market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5p7-3J2",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: inventory competition versus pending demand. Primary keyword: Torrance housing market update. Google Keyword Planner seed queries: Torrance housing market; Torrance real estate market update; Torrance home prices July 2026; should I sell my house in Torrance; Torrance home selling market; Torrance homes for sale inventory; Torrance days on market; Torrance listing price; Torrance seller market; Torrance housing market 2026; Torrance market update sellers; Torrance median home price; are home prices dropping in Torrance; is now a good time to sell in Torrance. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-cerritos-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "cerritos",
+  "title": "Cerritos Housing Market Update: July 2026",
+  "seoTitle": "Cerritos Housing Market Update: July 2026",
+  "displayTitle": "Cerritos Sellers Still Need a Defensible July 2026 Launch",
+  "summary": "Cerritos housing market update for July 2026: Supportive signals can help, but overpricing still creates stale days when the home does not match nearby...",
+  "href": "housing-market-pulse/cerritos/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 11,
+  "visitorIntent": "I want to understand Cerritos market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Do Cerritos sellers still have leverage in July 2026?",
+  "primaryAreas": [
+    "Cerritos"
+  ],
+  "comparisonAreas": [
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Cerritos",
+    "Gateway Cities & Harbor Area",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Cerritos",
+    "Gateway Cities & Harbor Area",
+    "Los Angeles County",
+    "Gateway Cities & Harbor Area",
+    "artesia",
+    "avalon"
+  ],
+  "searchKeywords": [
+    "Cerritos housing market",
+    "Cerritos real estate market update",
+    "Cerritos home prices July 2026",
+    "should I sell my house in Cerritos",
+    "Cerritos home selling market",
+    "Cerritos homes for sale inventory",
+    "Cerritos days on market",
+    "Cerritos listing price",
+    "Cerritos seller market",
+    "Cerritos housing market 2026",
+    "Cerritos market update sellers",
+    "Cerritos median home price",
+    "are home prices dropping in Cerritos",
+    "is now a good time to sell in Cerritos",
+    "Cerritos housing market update",
+    "Cerritos market pulse",
+    "Cerritos inventory",
+    "Cerritos homes for sale market",
+    "Gateway Cities & Harbor Area market data",
+    "Cerritos listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Cerritos, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/cerritos__seller.json",
+  "researchDatabaseKeys": [
+    "cerritos",
+    "artesia",
+    "avalon",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5ps-weI",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Cerritos market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5ps-weI",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: seller leverage with launch discipline. Primary keyword: Cerritos housing market update. Google Keyword Planner seed queries: Cerritos housing market; Cerritos real estate market update; Cerritos home prices July 2026; should I sell my house in Cerritos; Cerritos home selling market; Cerritos homes for sale inventory; Cerritos days on market; Cerritos listing price; Cerritos seller market; Cerritos housing market 2026; Cerritos market update sellers; Cerritos median home price; are home prices dropping in Cerritos; is now a good time to sell in Cerritos. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

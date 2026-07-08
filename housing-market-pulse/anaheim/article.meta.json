@@ -1,0 +1,133 @@
+{
+  "topicId": "pulse-anaheim-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "anaheim",
+  "title": "Anaheim Housing Market Update: July 2026",
+  "seoTitle": "Anaheim Housing Market Update: July 2026",
+  "displayTitle": "Anaheim Sellers Need Sharper Pricing in July 2026",
+  "summary": "Anaheim housing market update for July 2026: The sale plan needs stronger price proof, cleaner prep, and fewer unresolved buyer objections.",
+  "href": "housing-market-pulse/anaheim/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 1,
+  "visitorIntent": "I want to understand Anaheim market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "Is it getting harder to sell a home in Anaheim in July 2026?",
+  "primaryAreas": [
+    "Anaheim"
+  ],
+  "comparisonAreas": [
+    "Central Core",
+    "fullerton",
+    "garden-grove"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Anaheim",
+    "Central Core",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Anaheim",
+    "Central Core",
+    "Orange County",
+    "Central Core",
+    "fullerton",
+    "garden-grove"
+  ],
+  "searchKeywords": [
+    "Anaheim housing market",
+    "Anaheim real estate market update",
+    "Anaheim home prices July 2026",
+    "should I sell my house in Anaheim",
+    "Anaheim home selling market",
+    "Anaheim homes for sale inventory",
+    "Anaheim days on market",
+    "Anaheim listing price",
+    "Anaheim seller market",
+    "Anaheim housing market 2026",
+    "Anaheim market update sellers",
+    "Anaheim median home price",
+    "are home prices dropping in Anaheim",
+    "is now a good time to sell in Anaheim",
+    "Anaheim housing market update",
+    "Anaheim market pulse",
+    "Anaheim inventory",
+    "Anaheim homes for sale market",
+    "Central Core market data",
+    "Anaheim listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Anaheim, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/anaheim__seller.json",
+  "researchDatabaseKeys": [
+    "anaheim",
+    "fullerton",
+    "garden-grove",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5xU-M8l",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://www.ocassessor.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Anaheim market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5xU-M8l",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Orange County Assessor: property assessment resources",
+      "url": "https://www.ocassessor.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: inventory competition versus pending demand. Primary keyword: Anaheim housing market update. Google Keyword Planner seed queries: Anaheim housing market; Anaheim real estate market update; Anaheim home prices July 2026; should I sell my house in Anaheim; Anaheim home selling market; Anaheim homes for sale inventory; Anaheim days on market; Anaheim listing price; Anaheim seller market; Anaheim housing market 2026; Anaheim market update sellers; Anaheim median home price; are home prices dropping in Anaheim; is now a good time to sell in Anaheim. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

@@ -1,0 +1,134 @@
+{
+  "topicId": "pulse-redondo-beach-seller",
+  "status": "live",
+  "intent": "housing-market-pulse",
+  "slug": "redondo-beach",
+  "title": "Redondo Beach Housing Market Update: July 2026",
+  "seoTitle": "Redondo Beach Housing Market Update: July 2026",
+  "displayTitle": "Redondo Beach Sellers Face a Longer Launch Window in July 2026",
+  "summary": "Redondo Beach housing market update for July 2026: Longer market time makes the first two weeks, showing access, and price evidence more important.",
+  "href": "housing-market-pulse/redondo-beach/",
+  "type": "Market Pulse",
+  "category": "Housing Market Pulse",
+  "stage": "Pricing",
+  "year": 2026,
+  "priority": 53,
+  "visitorIntent": "I want to understand Redondo Beach market pace, buyer demand, competition, and pricing risk before choosing a list price or launch plan.",
+  "visitorQuestion": "How long will it take to sell a home in Redondo Beach in July 2026?",
+  "primaryAreas": [
+    "Redondo Beach"
+  ],
+  "comparisonAreas": [
+    "South Bay & Beach Cities",
+    "90277",
+    "90278"
+  ],
+  "tags": [
+    "Housing Market Pulse",
+    "Market update",
+    "Redondo Beach",
+    "South Bay & Beach Cities",
+    "Inventory",
+    "Seller pricing",
+    "Market data",
+    "Due diligence"
+  ],
+  "areas": [
+    "Redondo Beach",
+    "South Bay & Beach Cities",
+    "Los Angeles County",
+    "South Bay & Beach Cities",
+    "90277",
+    "90278"
+  ],
+  "searchKeywords": [
+    "Redondo Beach housing market",
+    "Redondo Beach real estate market update",
+    "Redondo Beach home prices July 2026",
+    "should I sell my house in Redondo Beach",
+    "Redondo Beach home selling market",
+    "Redondo Beach homes for sale inventory",
+    "Redondo Beach days on market",
+    "Redondo Beach listing price",
+    "Redondo Beach seller market",
+    "Redondo Beach housing market 2026",
+    "Redondo Beach market update sellers",
+    "Redondo Beach median home price",
+    "are home prices dropping in Redondo Beach",
+    "is now a good time to sell in Redondo Beach",
+    "Redondo Beach housing market update",
+    "Redondo Beach market pulse",
+    "Redondo Beach inventory",
+    "Redondo Beach homes for sale market",
+    "South Bay & Beach Cities market data",
+    "Redondo Beach listing strategy"
+  ],
+  "image": "assets/portal/additional resource photos/real estate market concept.png",
+  "imageAlt": "Real estate market concept visual representing local inventory, pricing, and offer timing",
+  "imageContext": "Existing site market concept visual used for local market interpretation articles.",
+  "heroCaption": "Read the local market signal before one pricing decision sets the whole launch in motion.",
+  "sourceNoteIntro": "This Pulse uses CRMLS / InfoSparks data for Redondo Beach, with the article read and chart defaulting to the Residential / Single family live MLS slice sourced from 7/5/2026. The broader Residential export is also available from 7/2/2026. It also uses official city, school, federal, state, and consumer sources for local due-diligence context. Use this as orientation, not a property valuation, legal opinion, lending quote, insurance opinion, school assignment, or forecast.",
+  "primaryCta": "Pressure-test my sale plan",
+  "secondaryCta": "Search Housing Market Pulse",
+  "leadCaptureOffer": "Pressure-test my sale plan",
+  "researchFolder": "housing-market-pulse/research/redondo-beach__seller.json",
+  "researchDatabaseKeys": [
+    "redondo-beach",
+    "90277",
+    "90278",
+    "seller"
+  ],
+  "preferredPhotoSource": "Existing HomesByIsraelHE market concept visual",
+  "videoPlaylists": [],
+  "relatedTopicIds": [
+    "sell-south-bay-move-up-prep-price-or-wait",
+    "sell-compare-net-proceeds-before-repairs",
+    "sell-cash-offer-vs-list-as-is-home-locally",
+    "sell-pre-listing-inspections-older-south-bay-long-beach-homes",
+    "sell-redondo-beach-sell-as-is-or-fix-before-listing",
+    "local-redondo-beach-area-guide"
+  ],
+  "sourceUrls": [
+    "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5pd-Py1",
+    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/quickfacts/",
+    "https://msc.fema.gov/portal/home",
+    "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+    "https://assessor.lacounty.gov/"
+  ],
+  "sourceNotes": [
+    {
+      "label": "CRMLS / InfoSparks: Redondo Beach market data export",
+      "url": "https://crmls.stats.10kresearch.com/infoserv/s-v1/G5pd-Py1",
+      "sourceType": "local market data"
+    },
+    {
+      "label": "Freddie Mac: Primary Mortgage Market Survey",
+      "url": "https://www.freddiemac.com/pmms",
+      "sourceType": "mortgage rate source"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/",
+      "sourceType": "demographic and housing context"
+    },
+    {
+      "label": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home",
+      "sourceType": "official flood map source"
+    },
+    {
+      "label": "California Geological Survey: Earthquake Zones of Required Investigation",
+      "url": "https://maps.conservation.ca.gov/cgs/informationwarehouse/eqzapp/",
+      "sourceType": "state seismic hazard map source"
+    },
+    {
+      "label": "Los Angeles County Assessor: property assessment resources",
+      "url": "https://assessor.lacounty.gov/",
+      "sourceType": "county property source"
+    }
+  ],
+  "createdDate": "2026-07-07",
+  "updatedDate": "2026-07-07",
+  "notes": "Housing Market Pulse generated from structured manifest. Keyword intent angle: launch window and pricing patience. Primary keyword: Redondo Beach housing market update. Google Keyword Planner seed queries: Redondo Beach housing market; Redondo Beach real estate market update; Redondo Beach home prices July 2026; should I sell my house in Redondo Beach; Redondo Beach home selling market; Redondo Beach homes for sale inventory; Redondo Beach days on market; Redondo Beach listing price; Redondo Beach seller market; Redondo Beach housing market 2026; Redondo Beach market update sellers; Redondo Beach median home price; are home prices dropping in Redondo Beach; is now a good time to sell in Redondo Beach. Research packet records editorial context. Visible avatar labels are prohibited and were not used in public page headings, badges, or category labels. Market metrics reviewed: medianSalePrice, averageSalePrice, averagePpsf, medianOriginalPrice, newListings, activeInventory, pendingSales, closedSales, monthsSupply, medianDaysOnMarket, averageDaysOnMarket. Missing/no-data metrics: closedVolume, totalClosedSides, medianLastListPrice, averageLastListPrice, medianShowsToContract, averageShowsToContract, showsPerListing."
+}

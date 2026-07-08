@@ -15,7 +15,8 @@ Use this repo to review and track proposed changes. When changes are ready, appl
 - `EDITING_MAP.md` explains what each included file controls.
 - `index.html`, `styles.css`, and `script.js` control the main homepage layout and nav behavior.
 - `article.js` and `article.css` control shared article-page navigation surfaces.
-- Hub-level `index.html` files are included, but individual article folders are intentionally excluded.
+- Hub-level `index.html` files are included; individual non-Pulse article folders are intentionally excluded.
+- `housing-market-pulse/` is included in full so individual Pulse city pages can be edited separately.
 
 ## Included Scope
 
@@ -23,7 +24,9 @@ Use this repo to review and track proposed changes. When changes are ready, appl
 - Shared navigation and search scripts
 - Shared styles
 - Hub-level index pages
+- Full generated `housing-market-pulse/` section for individual Pulse-page edits
 - Search/library data and rendering files
+- Full raw `market-trends/data/*.json` market dataset for graph/data-backed views
 - Minimal referenced assets for local preview
 - Production context docs for orientation only
 
