@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "HomesByIsraelHE",
+    "canonicalDomain": "https://homesbyisraelhe.com"
+  },
+  "canonicalRepo": {
+    "packageName": "homesbyisraelhe-homepage-shell",
+    "absolutePath": "/Users/israelhernandez/Documents/Website Files/homesbyisraelhe-homepage-shell",
+    "productionBranch": "main",
+    "requiredRootFiles": [
+      "package.json",
+      "wrangler.toml",
+      "index.html",
+      "lead-client.js",
+      "site-deploy-manifest.json"
+    ]
+  },
+  "cloudflare": {
+    "accountId": "435185b5928c03b0e51c7e6829f8f4ad",
+    "pagesProject": "homesbyisraelhe",
+    "pagesBuildOutputDir": ".deploy/homesbyisraelhe-pages",
+    "productionBranch": "main"
+  },
+  "github": {
+    "repository": "homesbyisraelhe/homesbyisraelhe-site",
+    "productionEnvironment": "homesbyisraelhe-production",
+    "productionWorkflow": ".github/workflows/production-deploy.yml",
+    "allowedProductionEvents": [
+      "push",
+      "workflow_dispatch"
+    ],
+    "requiredSecrets": [
+      "CLOUDFLARE_ACCOUNT_ID",
+      "CLOUDFLARE_API_TOKEN"
+    ]
+  },
+  "assertions": {
+    "homepagePath": "index.html",
+    "requiredHomepageText": [
+      "Start with the real estate decision in front of you.",
+      "Buy or Sell Without The Guesswork",
+      "decision-dashboard"
+    ],
+    "forbiddenHomepageText": [
+      "Southern California real estate guidance for the decision in front of you.",
+      "The fastest route is the question you are trying to answer.",
+      "PORTAL ENTRY"
+    ],
+    "requiredArtifactFiles": [
+      "index.html",
+      "_headers",
+      "_routes.json",
+      "styles.css",
+      "lead-client.js",
+      "assets/hbi-analytics.js"
+    ],
+    "forbiddenArtifactFiles": [
+      "functions/_middleware.js"
+    ],
+    "requiredHeadersText": [
+      "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
+      "X-Content-Type-Options: nosniff"
+    ]
+  },
+  "safety": {
+    "scanRoots": [
+      "/Users/israelhernandez/Documents/New project",
+      "/Users/israelhernandez/Documents/Website Files"
+    ],
+    "scanMaxDepth": 6,
+    "excludeDirectories": [
+      ".cache",
+      ".deploy",
+      ".git",
+      ".turbo",
+      ".vite",
+      ".wrangler",
+      "_backups",
+      "audit-reports",
+      "build",
+      "dist",
+      "node_modules",
+      "outputs",
+      "temp",
+      "tmp"
+    ],
+    "auditLogPath": "audit-reports/deploy-audit-log.jsonl",
+    "artifactProvenancePath": ".deploy/control-plane/deploy-provenance.json",
+    "blockDuplicateWranglerProjects": true,
+    "blockEnvironmentProjectOverrides": true,
+    "requireCiForProductionDeploy": true,
+    "allowLocalProductionDeploy": false
+  }
+}

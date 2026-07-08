@@ -1,0 +1,916 @@
+{
+  "overrides": [
+    {
+      "path": "/",
+      "title": "Israel Hernandez | Think Boutiq Real Estate | DRE 02148476",
+      "description": "Real estate guidance for buyers, sellers, homeowners, relocators, investors, and local-area decisions across LA and Orange County.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/airport-noise-freeway-noise-and-port-traffic-what-to-check-before-buying/",
+      "title": "Airport, Freeway, and Port Noise Before Buying",
+      "description": "Test noise, truck routes, flight paths, freeway exposure, air-quality context, and daily-life timing before deciding a home works.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/buying-a-1940s-1950s-or-1960s-home-in-the-south-bay-or-gateway-cities/",
+      "title": "Buying Midcentury Homes in South Bay and Gateway Cities",
+      "description": "Compare charm, systems, layout, insurance, and retrofit questions before falling for the house.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/buying-a-house-with-leased-solar-panels-in-la-or-oc/",
+      "title": "Buying a House With Leased Solar Panels",
+      "description": "Review solar leases, monthly payments, transfer terms, roof condition, lender treatment, insurance, and future resale before buying.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/buying-in-belmont-heights-long-beach-historic-homes-parking-and-older-home-checks/",
+      "title": "Belmont Heights Historic Homes Buyer Guide",
+      "description": "Compare Belmont Heights historic homes, older systems, parking, walkability, schools, and nearby Bluff Park or Belmont Shore alternatives.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/buying-in-belmont-shore-long-beach-what-buyers-should-know-before-touring/",
+      "title": "Belmont Shore Long Beach Buyer Guide",
+      "description": "Compare beach access, Second Street lifestyle, parking, older homes, condos, noise, insurance, and nearby alternatives before touring Belmont Shore.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-in-bixby-knolls-long-beach-homes-commute-schools-and-lifestyle-fit/",
+      "title": "Bixby Knolls Long Beach Buyer Guide",
+      "description": "Compare Bixby Knolls homes, north Long Beach access, neighborhood amenities, commute, schools, older-home condition, and nearby alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-in-bluff-park-long-beach-coastal-living-condos-parking-and-older-homes/",
+      "title": "Bluff Park Long Beach Buyer Guide",
+      "description": "Compare Bluff Park coastal access, condos, older homes, parking, HOA documents, historic context, insurance, and nearby Belmont Heights alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-in-california-heights-long-beach-historic-district-older-homes-and-buyer-checks/",
+      "title": "California Heights Historic Homes Buyer Guide",
+      "description": "Compare California Heights historic district context, older homes, permits, parking, commute, schools, and nearby Bixby Knolls alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-in-el-dorado-park-estates-long-beach-homes-lifestyle-and-buyer-tradeoffs/",
+      "title": "El Dorado Park Estates Buyer Guide",
+      "description": "Compare park access, suburban feel, larger homes, freeway access, schools, condition, and nearby Rossmoor or Los Alamitos alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-in-naples-island-long-beach-waterfront-homes-canals-parking-and-lifestyle/",
+      "title": "Naples Island Waterfront Buyer Guide",
+      "description": "Compare canals, waterfront premiums, parking, older homes, bridge access, HOA or insurance questions, and nearby Belmont Shore alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-near-old-ranch-seal-beach-and-rossmoor-what-local-buyers-should-compare/",
+      "title": "Old Ranch, Seal Beach, and Rossmoor Buyer Guide",
+      "description": "Compare golf-course proximity, Seal Beach lifestyle, Rossmoor residential feel, schools, taxes, commute, and property-specific checks.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/buying-with-rsus-bonuses-or-ipo-stock-in-la-county-or-orange-county/",
+      "title": "Buying With RSUs, Bonuses, or IPO Stock",
+      "description": "Separate lender-countable income, liquid cash, taxes, vesting schedules, lockups, and loan strategy before using equity compensation.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/condo-vs-townhome-vs-single-family-home-in-la-county-and-orange-county/",
+      "title": "Condo vs Townhome vs Single-Family Home",
+      "description": "Compare control, maintenance, HOA dues, insurance, financing, outdoor space, parking, repairs, and resale before choosing property type.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/cosmetic-fixer-vs-money-pit-what-buyers-should-know-before-touring/",
+      "title": "Cosmetic Fixer vs Money Pit Before Touring",
+      "description": "Separate dated finishes from expensive system, structural, permit, insurance, and safety problems before falling for a fixer.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/downtown-hermosa-beach-buyer-guide-walkability-noise-condos-and-beach-lifestyle/",
+      "title": "Downtown Hermosa Beach Buyer Guide",
+      "description": "Compare Downtown Hermosa walkability, beach access, nightlife noise, parking, condos, older homes, insurance, and Manhattan or Redondo alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/downtown-long-beach-condo-buyer-guide-hoa-parking-noise-and-lifestyle-tradeoffs/",
+      "title": "Downtown Long Beach Condo Buyer Guide",
+      "description": "Compare Downtown Long Beach condos by HOA dues, reserves, parking, noise, building condition, walkability, insurance, and commute.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/duplex-buyer-guide-for-long-beach/",
+      "title": "Duplex Buyer Guide for Long Beach | Israel Hernandez",
+      "description": "Compare owner fit, rental income, tenant issues, permits, inspections, insurance, repairs, parking, and demand before buying a duplex.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/earthquake-insurance-and-retrofit-questions-for-la-and-oc-home-buyers/",
+      "title": "Earthquake Insurance and Retrofit Questions",
+      "description": "Use insurance, retrofit, foundation, cripple-wall, crawlspace, and hazard-map questions before buying older or vulnerable homes.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/fha-vs-conventional-loans-for-long-beach-gateway-cities-and-south-bay-buyers/",
+      "title": "FHA vs Conventional Loans for Local Buyers",
+      "description": "Compare down payment, credit profile, mortgage insurance, loan limits, property condition, condo approval, and offer strategy.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/fire-insurance-questions-before-buying-in-palos-verdes-south-oc-or-hillside-areas/",
+      "title": "Fire Insurance Questions for Hillside Homes",
+      "description": "Ask insurance, defensible space, hazard-map, access, roof, brush, and lender questions early when hillside or wildfire exposure may affect the deal.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/first-time-buyer-assistance-in-long-beach-la-county-and-orange-county-what-actually-qualifies/",
+      "title": "First-Time Buyer Assistance in LA and OC",
+      "description": "Compare income limits, property rules, loan types, geography, education requirements, and timing before relying on buyer assistance.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/flood-zones-liquefaction-and-coastal-risk-for-south-bay-and-long-beach-buyers/",
+      "title": "Flood, Liquefaction, and Coastal Risk for Buyers",
+      "description": "Check flood maps, liquefaction zones, drainage, insurance, and disclosure questions before choosing a coastal or low-lying home.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/foundation-and-drainage-issues-in-south-bay-and-coastal-la-homes/",
+      "title": "Foundation and Drainage Issues in Coastal LA Homes",
+      "description": "Know the site, slope, drainage, crawlspace, and retrofit questions before removing inspection protections.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/garage-conversions-adus-and-bonus-rooms-what-buyers-should-verify-before-closing/",
+      "title": "Garage Conversions, ADUs, and Bonus Room Checks",
+      "description": "Check legal use, permits, value, financing, and future resale before counting bonus space.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/hollywood-riviera-torrance-buyer-guide-hillside-homes-views-and-south-bay-lifestyle/",
+      "title": "Hollywood Riviera Torrance Buyer Guide",
+      "description": "Compare Hollywood Riviera views, hillside homes, Riviera Village access, schools, insurance, drainage, commute, and nearby alternatives.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/how-hoa-dues-change-your-buying-power-in-long-beach-south-bay-and-orange-county/",
+      "title": "How HOA Dues Change Buying Power",
+      "description": "Learn how monthly HOA dues affect loan qualification, offer strategy, condo comparisons, reserves, special assessments, and real buying power.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/how-job-growth-near-anduril-spacex-northrop-and-the-ports-can-affect-buyer-timing/",
+      "title": "How Job Growth Affects Buyer Timing",
+      "description": "Use employer and port-growth context carefully without assuming every nearby listing is automatically a smart buy.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/how-to-compete-against-cash-buyers-in-long-beach-and-the-south-bay/",
+      "title": "Compete Against Cash Buyers in Long Beach and South Bay",
+      "description": "Use lender preparation, terms, speed, and clarity without pretending a financed offer is cash.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/how-to-find-value-without-chasing-the-cheapest-listing/",
+      "title": "Find Home Value Without Chasing the Cheapest Listing",
+      "description": "Look for useful tradeoffs in condition, location, timing, property type, and seller motivation instead of treating the lowest price as the best deal.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/how-to-review-hoa-documents-before-buying-a-condo-in-long-beach-or-orange-county/",
+      "title": "Review HOA Documents Before Buying a Condo",
+      "description": "Know which HOA documents affect dues, reserves, rules, insurance, rentals, litigation, repairs, and financing before removing protections.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/how-to-use-days-on-market-and-price-reductions-before-making-an-offer/",
+      "title": "Use Days on Market Before Making an Offer",
+      "description": "Turn listing history into negotiation context without assuming every stale listing is overpriced.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/how-to-write-a-strong-offer-without-waiving-every-protection/",
+      "title": "Write a Strong Offer Without Waiving Protections",
+      "description": "Make the offer cleaner without giving up the inspection, appraisal, financing, timing, and disclosure protections that actually matter.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/jumbo-vs-conforming-loans-in-la-county-and-orange-county/",
+      "title": "Jumbo vs Conforming Loans in LA County and Orange County",
+      "description": "Compare loan limits, jumbo underwriting, reserves, appraisal risk, and down-payment strategy before setting a California price range.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/long-beach-neighborhoods-for-buyers-where-to-start-your-search/",
+      "title": "Long Beach Neighborhoods for Buyers",
+      "description": "Use a buyer-first framework to compare Long Beach neighborhoods by lifestyle, commute, property type, budget, schools, parking, and property checks.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/manhattan-beach-hill-section-buyer-guide-views-lots-luxury-pricing-and-tradeoffs/",
+      "title": "Manhattan Beach Hill Section Buyer Guide",
+      "description": "Compare Hill Section views, larger homes, slope, luxury pricing, schools, commute, insurance, and Tree or Sand Section alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/manhattan-beach-sand-section-buyer-guide-beach-proximity-parking-lots-and-price/",
+      "title": "Manhattan Beach Sand Section Buyer Guide",
+      "description": "Compare Sand Section beach access, walk streets, parking, lot size, price pressure, noise, insurance, and Tree or Hill Section alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/manhattan-beach-tree-section-buyer-guide-lots-streets-schools-and-lifestyle/",
+      "title": "Manhattan Beach Tree Section Buyer Guide",
+      "description": "Compare Tree Section lots, street feel, schools, commute, pricing, remodel potential, parking, and Sand or Hill Section alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/mello-roos-hoa-fees-and-property-taxes-what-oc-buyers-should-compare/",
+      "title": "Mello-Roos, HOA Fees, and Property Taxes in OC",
+      "description": "Compare the full Orange County monthly cost, not just the price, before choosing between newer communities, older homes, condos, and townhomes.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/new-construction-homes-in-long-beach-what-buyers-should-compare/",
+      "title": "New Construction Homes in Long Beach",
+      "description": "Compare builder contracts, permits, inspections, warranties, HOA dues, taxes, location, finish quality, and resale before buying new construction.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/older-homes-in-long-beach-sewer-foundation-electrical-and-permit-issues-to-check/",
+      "title": "Older Long Beach Homes: What Buyers Should Check",
+      "description": "Know which older-home systems deserve attention before writing an offer or removing inspection protections.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/park-estates-long-beach-buyer-guide-larger-homes-location-and-condition-checks/",
+      "title": "Park Estates Long Beach Buyer Guide",
+      "description": "Compare Park Estates larger homes, lot feel, CSULB access, commute, older systems, pricing, and nearby Los Altos alternatives.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/buy/rossmoor-ca-buyer-guide-homes-schools-lifestyle-and-local-tradeoffs/",
+      "title": "Rossmoor CA Buyer Guide",
+      "description": "Compare Rossmoor homes, Orange County service context, schools, lot feel, pricing, commute, and nearby Los Alamitos or Long Beach alternatives.",
+      "reason": "SERP batch 2: remove generic buyer-guide suffix from long title."
+    },
+    {
+      "path": "/buy/sewer-line-inspections-for-long-beach-lakewood-torrance-and-gateway-cities-buyers/",
+      "title": "Sewer Line Inspections for Local Buyers",
+      "description": "Understand when a sewer scope can change your offer, repair ask, or walk-away decision.",
+      "reason": "SERP batch 2: shorten buyer title."
+    },
+    {
+      "path": "/buy/should-you-buy-the-smaller-home-in-the-better-area-or-the-bigger-home-farther-out/",
+      "title": "Smaller Home Better Area or Bigger Home Farther Out?",
+      "description": "Compare daily life, commute, schools, property condition, outdoor space, resale audience, and future flexibility before choosing size or location.",
+      "reason": "SERP batch 2: shorten buyer comparison title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/single-income-buying-in-long-beach-south-bay-or-oc/",
+      "title": "Single-Income Buying in Long Beach, South Bay, or OC",
+      "description": "Build a one-income purchase plan around payment comfort, reserves, assistance options, property type, commute, and repair risk.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/special-assessments-reserves-and-deferred-maintenance-condo-buyer-guide/",
+      "title": "Special Assessments and Condo Reserves Guide",
+      "description": "Look past the monthly dues and review reserves, repair history, insurance, building systems, and assessment risk before buying.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/supplemental-property-tax-bills-for-la-and-oc-home-buyers/",
+      "title": "Supplemental Property Tax Bills for Buyers",
+      "description": "Plan for California supplemental property tax bills after closing so the new assessed value does not surprise your cash reserves.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/unpermitted-additions-in-la-county-and-orange-county-buyer-red-flags/",
+      "title": "Unpermitted Additions: Buyer Red Flags",
+      "description": "Identify the permit, appraisal, insurance, financing, and resale questions before closing.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/va-approved-condos-in-orange-county-and-long-beach/",
+      "title": "VA-Approved Condos in OC and Long Beach",
+      "description": "Use the VA condo approval lookup, HOA documents, lender review, insurance, reserves, dues, and property fit before choosing a condo with a VA loan.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/what-a-california-buyer-broker-agreement-means-before-you-tour-in-la-or-oc/",
+      "title": "California Buyer-Broker Agreement Before Touring",
+      "description": "Understand what a buyer-broker agreement does, what to ask before signing, and how it changes touring homes in LA County or Orange County.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/buy/what-as-is-really-means-when-buying-a-home-in-la-county-or-orange-county/",
+      "title": "What As-Is Means When Buying a California Home",
+      "description": "Understand what as-is does and does not change about inspections, disclosures, appraisal, insurance, and negotiation.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/buy/what-price-per-square-foot-gets-wrong-in-south-bay-long-beach-and-oc/",
+      "title": "What Price Per Square Foot Gets Wrong",
+      "description": "Use price per square foot as a clue, not the decision-maker, because layout, condition, lot, location, property type, and upgrades change value.",
+      "reason": "SERP batch 2: shorten buyer title and remove brand suffix crowding."
+    },
+    {
+      "path": "/homeowners/behind-on-your-mortgage-in-la-county-what-to-decide-before-a-trustee-sale-date/",
+      "title": "Behind on Mortgage in LA County Before Trustee Sale?",
+      "description": "If you are behind on an LA County mortgage, use the time before a trustee sale date to review lender options, sale timing, equity, and next steps.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/homeowners/code-violations-on-a-long-beach-or-gateway-cities-home-decide-before-you-list/",
+      "title": "Sell a Long Beach Home With Code Violations?",
+      "description": "Before listing with code issues, compare notices, repair choices, disclosure duties, buyer fit, and as-is pricing.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/divorce-and-the-family-home-in-redondo-beach-first-decisions-before-selling/",
+      "title": "Divorce and the Redondo Beach Family Home",
+      "description": "Before listing during divorce, separate authority, buyout ability, equity, privacy, and family needs around the Redondo Beach home.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/inherited-a-long-beach-home-what-to-decide-before-cleaning-it-out-or-listing/",
+      "title": "Inherited a Long Beach Home? What to Do First",
+      "description": "Before cleaning out an inherited Long Beach home, confirm authority, occupancy, condition, taxes, and family expectations.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/inherited-a-long-beach-home-with-siblings-first-decisions-before-anyone-signs-anything/",
+      "title": "Inherited a Long Beach Home With Siblings?",
+      "description": "If siblings inherited a Long Beach home, start with authority, value expectations, access, buyout options, and a written plan before anyone signs.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/inherited-a-redondo-beach-home-with-siblings-first-decisions-before-one-person-pushes-to-sell/",
+      "title": "Inherited a Redondo Beach Home With Siblings?",
+      "description": "If siblings inherited a Redondo Beach home, align on authority, value, buyout options, and sale timing before one person pushes the process.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/inherited-a-torrance-home-first-decisions-before-you-sell-rent-or-keep-it/",
+      "title": "Inherited a Torrance Home: Sell, Rent, or Keep?",
+      "description": "If you inherited a Torrance home, compare selling or renting against Prop 19, repair needs, family alignment, and carrying costs.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/medi-cal-estate-recovery-and-a-family-home-questions-to-ask-before-selling/",
+      "title": "Medi-Cal Estate Recovery and a Family Home",
+      "description": "Before selling after Medi-Cal, heirs should ask about DHCS claims, probate authority, exemptions, liens, and timing.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/notice-of-default-in-torrance-redondo-beach-or-the-south-bay-what-homeowners-should-know-first/",
+      "title": "Notice of Default in South Bay: What to Do First",
+      "description": "If a Notice of Default hits in Torrance or Redondo, use the early window to review deadlines, equity, repair risk, and sale timing.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/one-spouse-wants-to-keep-the-home-one-wants-to-sell-first-real-estate-decisions/",
+      "title": "One Spouse Wants to Keep the Home, One Wants to Sell",
+      "description": "When one spouse wants to keep the home and the other wants to sell, review buyout math, refinancing, title, and legal authority before it escalates.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/out-of-state-heir-with-a-home-in-la-or-orange-county-what-to-do-first/",
+      "title": "Inherited an LA or OC Home From Out of State?",
+      "description": "If you inherited a California home from out of state, start with authority, access, condition, insurance, and probate or trust status.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/homeowners/out-of-state-heir-with-a-south-bay-home-what-to-handle-before-you-fly-in/",
+      "title": "Inherited a South Bay Home From Out of State?",
+      "description": "If you inherited a South Bay home from out of state, organize authority, access, security, vendors, and decision rules before you fly in.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/homeowners/parent-passed-away-and-left-a-torrance-home-what-to-handle-before-listing/",
+      "title": "Inherited a Torrance Home After a Parent Dies?",
+      "description": "Before listing an inherited Torrance home, confirm authority, trust or probate status, costs, condition, and family alignment.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/homeowners/parent-s-long-time-south-bay-home-needs-work-sell-as-is-repair-or-prepare-lightly/",
+      "title": "Parent's South Bay Home Needs Work: Sell As-Is?",
+      "description": "Before spending family money on repairs, compare safety fixes, light prep, disclosures, timing, and likely buyer confidence.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/property-taxes-behind-in-la-or-oc-first-decisions-before-a-tax-sale-risk-grows/",
+      "title": "Behind on Property Taxes in LA or OC?",
+      "description": "Late property taxes can become urgent. Compare payment options, liens, escrow questions, selling, holding, and timing before costs grow.",
+      "reason": "SERP high-intent batch: sharpen urgent homeowner query match without changing visible article body copy."
+    },
+    {
+      "path": "/homeowners/received-a-notice-of-default-in-long-beach-first-decisions-before-you-sell-or-wait/",
+      "title": "Notice of Default in Long Beach: Sell or Wait?",
+      "description": "Received a Notice of Default in Long Beach? Use the early window to compare lender options, sale timing, equity, repairs, privacy, and deadlines.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/reverse-mortgage-after-a-loved-one-passes-what-heirs-should-know-before-selling/",
+      "title": "Reverse Mortgage After Death: Heir Sale Questions",
+      "description": "Heirs should confirm reverse-mortgage payoff, appraised value rules, extensions, authority, and sale timing before selling.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/sell-the-house-before-or-after-divorce-is-final-in-california/",
+      "title": "Sell the House Before or After Divorce Is Final?",
+      "description": "Before deciding when to sell during divorce, separate authority, court orders, proceeds, timing, and buyer confidence.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/selling-a-home-during-divorce-in-long-beach-south-bay-or-orange-county/",
+      "title": "Selling a Home During Divorce in Southern California",
+      "description": "When divorce and real estate overlap, use one sale process for authority, access, offers, escrow, and proceeds.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/selling-a-tenant-occupied-property-in-la-county-or-orange-county-first-decisions/",
+      "title": "Selling a Tenant-Occupied Property in LA or OC",
+      "description": "Before selling with tenants in place, review the lease, entry rules, rent status, buyer fit, disclosures, timing, and legal guidance.",
+      "reason": "SERP high-intent batch: sharpen urgent homeowner query match without changing visible article body copy."
+    },
+    {
+      "path": "/homeowners/should-you-keep-or-sell-an-inherited-orange-county-home-after-prop-19/",
+      "title": "Inherited an Orange County Home After Prop 19?",
+      "description": "If you inherited an Orange County home after Prop 19, compare reassessment risk with rent, sale, buyout, and carrying-cost choices before deciding.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/tired-landlord-in-long-beach-sell-tenant-occupied-vacant-or-hold/",
+      "title": "Tired Landlord in Long Beach: Sell, Vacant, or Hold?",
+      "description": "If you are tired of managing a Long Beach rental, compare selling occupied, creating vacancy, or holding before repairs and tenant issues drain more time.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/homeowners/trust-sale-vs-probate-sale-in-long-beach-south-bay-la-county-and-oc/",
+      "title": "Trust Sale vs Probate Sale in Southern California",
+      "description": "Before selling an inherited home, understand how authority, court approval, disclosures, timing, and buyer expectations can change the plan.",
+      "reason": "SERP high-intent batch: sharpen urgent homeowner query match without changing visible article body copy."
+    },
+    {
+      "path": "/homeowners/vacant-home-in-lakewood-torrance-or-long-beach-first-decisions-before-costs-pile-up/",
+      "title": "Vacant Home in Lakewood, Torrance, or Long Beach?",
+      "description": "A vacant home needs decisions on security, insurance, utilities, sale timing, and carrying costs before problems pile up.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/local-areas/",
+      "title": "Local Areas | Israel Hernandez | Think Boutiq Real Estate",
+      "description": "Compare Southern California cities by commute, housing tradeoffs, schools, lifestyle, and market context before choosing where to live.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/local-areas/manhattan-beach-area-guide/",
+      "title": "Manhattan Beach Area Intelligence",
+      "description": "Compare Manhattan Beach market context, schools, neighborhood fit, nearby areas, local routines, and source notes before touring.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/local-areas/palos-verdes-area-guide/",
+      "title": "Palos Verdes Area Intelligence",
+      "description": "Compare Palos Verdes market context, schools, hillside due diligence, local routines, and buyer fit before choosing a peninsula home.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/local-areas/wilmington-area-guide/",
+      "title": "Wilmington Area Intelligence",
+      "description": "Compare Wilmington market context, port-adjacent routines, buyer fit, schools, local anchors, and nearby areas before choosing a home.",
+      "reason": "SERP batch 3: tighten description under 155 characters with answer-first language."
+    },
+    {
+      "path": "/move-relocate/",
+      "title": "Move or Relocate in Southern California",
+      "description": "Move and relocation guidance from Israel Hernandez for sale timing, purchase timing, leases, commute, school calendar, and local-area decisions.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/best-gateway-cities-for-buyers-who-need-access-to-both-la-and-orange-county/",
+      "title": "Best Gateway Cities for LA and OC Access",
+      "description": "Compare Cerritos, Downey, Lakewood, Bellflower, and nearby Gateway Cities when centrality matters more than prestige.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/best-long-beach-neighborhoods-for-families-who-need-easy-access-to-orange-county/",
+      "title": "Best Long Beach Areas for OC-Adjacent Families",
+      "description": "Use Orange County access, school-boundary research, parking, home type, and weekend lifestyle to narrow the Long Beach pockets worth touring.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/best-neighborhoods-near-northrop-grumman-space-park-redondo-beach/",
+      "title": "Neighborhoods Near Northrop Grumman Space Park",
+      "description": "Compare North Redondo, South Redondo, Torrance, Hermosa, Manhattan Beach, and Palos Verdes before choosing a Space Park home base.",
+      "reason": "SERP batch 2: Northrop relocation snippet cleanup."
+    },
+    {
+      "path": "/move-relocate/best-south-bay-cities-for-aerospace-defense-and-space-industry-professionals/",
+      "title": "Best South Bay Cities for Aerospace Workers",
+      "description": "Compare El Segundo, Manhattan Beach, Redondo Beach, Torrance, Hawthorne-adjacent options, commute, housing, and lifestyle before relocating.",
+      "reason": "SERP batch 2: South Bay aerospace relocation snippet cleanup."
+    },
+    {
+      "path": "/move-relocate/bridge-loan-vs-heloc-vs-rent-back-for-la-and-oc-homeowners/",
+      "title": "Bridge Loan, HELOC, or Rent-Back Before You Sell",
+      "description": "Compare bridge loans, HELOCs, rent-backs, and sell-first timing before using current-home equity to buy your next LA or OC home.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/move-relocate/can-you-buy-your-next-home-before-selling-your-current-home-in-california/",
+      "title": "Can You Buy Before Selling Your California Home?",
+      "description": "Compare sale timing, proceeds, rent-backs, bridge or HELOC options, contingencies, taxes, and backup housing before using current-home equity.",
+      "reason": "SERP batch 2: shorten buy-before-sell relocation snippet."
+    },
+    {
+      "path": "/move-relocate/cerritos-vs-downey-vs-lakewood-vs-bellflower-which-gateway-city-fits-your-life/",
+      "title": "Cerritos, Downey, Lakewood, or Bellflower?",
+      "description": "Translate the Gateway Cities map into practical differences around schools, commute, value, home type, and daily services.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/hawthorne-vs-torrance-vs-redondo-beach-for-spacex-employees/",
+      "title": "Hawthorne vs Torrance vs Redondo for SpaceX",
+      "description": "Compare three SpaceX relocation lanes: Hawthorne-adjacent commute control, Torrance practicality, and Redondo Beach coastal flexibility.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/hermosa-beach-or-manhattan-beach-when-moving-from-san-francisco/",
+      "title": "Hermosa vs Manhattan Beach After San Francisco",
+      "description": "Compare coastal routine, polish, walkability, school logistics, commute, parking, and home fit before relocating from San Francisco.",
+      "reason": "SERP batch 2: shorten coastal relocation snippet."
+    },
+    {
+      "path": "/move-relocate/i-got-a-job-in-el-segundo-where-should-i-live/",
+      "title": "Where to Live Near El Segundo",
+      "description": "Compare Hermosa Beach, Manhattan Beach, Redondo Beach, and Torrance by commute, beach lifestyle, housing tradeoffs, schools, and daily rhythm.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/lakewood-vs-long-beach-for-anduril-employees/",
+      "title": "Lakewood vs Long Beach for Anduril Employees",
+      "description": "Compare Lakewood and Long Beach by commute, housing type, daily routine, schools, parking, and resale flexibility before choosing a home base.",
+      "reason": "SERP batch 2: Anduril Lakewood vs Long Beach snippet cleanup."
+    },
+    {
+      "path": "/move-relocate/long-beach-space-beach-relocation-guide/",
+      "title": "Long Beach Aerospace Relocation Guide",
+      "description": "Compare Long Beach neighborhoods, Lakewood, Signal Hill, Seal Beach, and Los Alamitos before choosing a home base for aerospace or space work.",
+      "reason": "High-value relocation authority page with long list-heavy description."
+    },
+    {
+      "path": "/move-relocate/long-beach-vs-seal-beach-vs-los-alamitos-for-families-coming-from-orange-county/",
+      "title": "Long Beach, Seal Beach, or Los Alamitos for Families",
+      "description": "Compare work routes, school research, housing style, coastal routine, and weekly logistics before leaving Orange County for a nearby family move.",
+      "reason": "SERP batch 2: OC-adjacent family relocation snippet cleanup."
+    },
+    {
+      "path": "/move-relocate/moving-from-san-francisco-to-the-south-bay-hermosa-manhattan-redondo-or-el-segundo/",
+      "title": "Moving From San Francisco to the South Bay",
+      "description": "Use a Southern California comparison framework for Bay Area movers choosing between beach lifestyle, job proximity, and housing practicality.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/moving-near-douglas-park-long-beach-before-anduril-opens/",
+      "title": "Moving Near Douglas Park Before Anduril Opens",
+      "description": "Use a relocation framework for Douglas Park and Long Beach Airport area neighborhoods before Anduril",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/prop-19-for-south-bay-and-oc-homeowners-moving-within-california/",
+      "title": "Prop 19 Moving Plan for South Bay and OC Homeowners",
+      "description": "Use Prop 19 early when comparing selling, buying, downsizing, or moving within California so tax questions do not steer the move too late.",
+      "reason": "SERP batch 2: tighten Prop 19 relocation snippet."
+    },
+    {
+      "path": "/move-relocate/relocating-with-spacex-rsus-south-bay/",
+      "title": "Relocating With SpaceX RSUs in South Bay",
+      "description": "Before RSUs shape your move, compare lender treatment, taxes, reserves, concentration risk, and South Bay home choices.",
+      "reason": "SERP batch 2: tighten SpaceX relocation snippet."
+    },
+    {
+      "path": "/move-relocate/san-pedro-long-beach-lakewood-or-torrance-best-places-for-port-and-logistics-professionals/",
+      "title": "Best Home Base for Port Logistics Professionals",
+      "description": "Compare harbor, logistics, and South Bay-adjacent places by commute access, home type, services, and family routine.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/selling-in-long-beach-and-buying-in-las-vegas-timing-proceeds-rent-backs-and-tax-questions/",
+      "title": "Selling in Long Beach and Buying in Las Vegas",
+      "description": "Before moving to Las Vegas, compare sale timing, proceeds, rent-back options, taxes, and cash needed to close.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/move-relocate/should-you-sell-or-rent-out-your-long-beach-home-before-moving-out-of-state/",
+      "title": "Moving Out of State: Sell or Rent Your Long Beach Home?",
+      "description": "Before moving out of state from Long Beach, decide whether selling or renting better fits your cash flow, distance, repair risk, and timeline.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/move-relocate/south-bay-relocation-guide-aerospace-defense-professionals/",
+      "title": "South Bay Relocation Guide for Aerospace Workers",
+      "description": "Compare El Segundo, Hawthorne, Redondo Beach, Torrance, Manhattan Beach, Hermosa Beach, and nearby options around commute, housing, and lifestyle.",
+      "reason": "Authority relocation page with employer and local discovery value."
+    },
+    {
+      "path": "/move-relocate/torrance-redondo-beach-or-palos-verdes/",
+      "title": "Torrance, Redondo, or Palos Verdes Relocation Guide",
+      "description": "Compare Torrance, Redondo Beach, and Palos Verdes by workweek function, coastal access, quiet residential feel, school checks, and weekend rhythm.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/move-relocate/where-healthcare-workers-should-live-near-torrance-or-long-beach/",
+      "title": "Healthcare Worker Housing Near Torrance or Long Beach",
+      "description": "Compare Torrance, Redondo Beach, Long Beach, Signal Hill, and Lakewood by shift timing, commute reliability, parking, schools, and quiet-home fit.",
+      "reason": "SERP batch 2: healthcare relocation description cleanup."
+    },
+    {
+      "path": "/move-relocate/where-should-anduril-employees-live-near-long-beach-lakewood-campus/",
+      "title": "Where Should Anduril Employees Live Near Long Beach?",
+      "description": "Compare Lakewood, East Long Beach, Bixby Knolls, Signal Hill, Seal Beach, and Los Alamitos before choosing a relocation radius.",
+      "reason": "SERP batch 2: Anduril Long Beach relocation snippet cleanup."
+    },
+    {
+      "path": "/move-relocate/where-should-spacex-employees-live-south-bay-after-ipo/",
+      "title": "Where Should SpaceX Employees Live in South Bay?",
+      "description": "Compare commute control, coastal lifestyle, housing tradeoffs, schools, and lender questions before choosing a South Bay home base.",
+      "reason": "High-authority employer relocation page with long list-heavy description."
+    },
+    {
+      "path": "/move-relocate/where-should-you-live-if-one-partner-works-in-irvine-and-the-other-works-in-long-beach/",
+      "title": "Where to Live Between Irvine and Long Beach",
+      "description": "Compare Long Beach, Seal Beach, Los Alamitos, Lakewood, and Cerritos by commute, school routes, parking, errands, and household fairness.",
+      "reason": "Currently inspected move/relocation page with long meta description."
+    },
+    {
+      "path": "/move-relocate/where-to-live-between-anduril-costa-mesa-and-long-beach/",
+      "title": "Where to Live Between Anduril Costa Mesa and Long Beach",
+      "description": "Compare Seal Beach, Los Alamitos, Cypress, Lakewood, East Long Beach, Costa Mesa, and Huntington Beach before choosing a two-worksite home base.",
+      "reason": "SERP batch 2: shorten list-heavy relocation description and keep the two-worksite intent clear."
+    },
+    {
+      "path": "/move-relocate/where-to-live-if-you-work-at-the-port-of-long-beach-or-port-of-los-angeles/",
+      "title": "Where to Live Near the Ports of LA and Long Beach",
+      "description": "Compare Long Beach, San Pedro, Lakewood, Torrance, and nearby cities for port, harbor, and logistics professionals.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/search/",
+      "title": "Search Real Estate Guidance",
+      "description": "Search buying, selling, moving, homeowner, investment, and local-area guidance from Israel Hernandez.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/",
+      "title": "Sell a Home in Southern California | Israel Hernandez",
+      "description": "Plan pricing, prep, repairs, timing, and offers before listing a Southern California home with Israel Hernandez.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/can-you-downsize-without-losing-your-property-tax-advantage/",
+      "title": "Prop 19 Downsizing in LA and OC",
+      "description": "Use Prop 19 as a planning question, not a guess: age, timing, replacement value, county filing, and property-tax office review can shape the move.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/can-you-sell-a-long-beach-condo-and-buy-a-house-without-moving-twice/",
+      "title": "Sell a Long Beach Condo and Buy a House",
+      "description": "Plan buyer approval, HOA documents, rent-back timing, next-home financing, and backup housing before trying to sell and buy in one move.",
+      "reason": "SERP batch 2: condo move-up seller description cleanup."
+    },
+    {
+      "path": "/sell/downsizing-after-55-in-south-bay-long-beach-or-orange-county-first-decisions-before-you-sell/",
+      "title": "Downsizing After 55 Before You Sell in LA or OC",
+      "description": "Before listing a longtime Southern California home, compare life fit, tax questions, sale prep, next-home options, and family timing.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/downsizing-with-adult-children-involved-what-to-decide-before-anyone-tours-homes/",
+      "title": "Downsizing With Adult Children Before You Sell",
+      "description": "Before adult children weigh in on the family home, set roles, money expectations, timing, care needs, and the next-home plan.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/gateway-cities-move-up-guide-can-downey-lakewood-norwalk-or-bellflower-equity-get-you-to-the-next-home/",
+      "title": "Can Gateway Cities Equity Fund Your Next Home?",
+      "description": "Before assuming your current home funds the next move, compare equity, buyer demand, next-area pricing, commute, payment, and timing.",
+      "reason": "Move-up seller page with long title and commercial intent."
+    },
+    {
+      "path": "/sell/gateway-cities-to-orange-county-what-your-sale-has-to-accomplish-first/",
+      "title": "Gateway Cities to Orange County Move-Up Plan",
+      "description": "Before shopping Orange County, clarify what your Gateway Cities sale must deliver: cash, timing, certainty, or stronger buying power.",
+      "reason": "SERP batch 2: high-intent move-up seller description cleanup."
+    },
+    {
+      "path": "/sell/home-sale-contingencies-in-la-and-oc-when-they-help-and-when-they-hurt/",
+      "title": "Home-Sale Contingencies in LA and OC",
+      "description": "A home-sale contingency can protect your next move, but it may weaken the purchase offer. Compare timing, risk, and negotiation strength first.",
+      "reason": "SERP batch 2: seller contingency description cleanup."
+    },
+    {
+      "path": "/sell/how-to-compare-net-proceeds-before-spending-money-on-repairs/",
+      "title": "Compare Net Proceeds Before Home Repairs",
+      "description": "Before spending money on repairs, compare price lift, project cost, timing, credits, and what you may actually net.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/if-your-home-is-too-small-but-your-mortgage-is-too-good-what-should-you-do/",
+      "title": "Low Mortgage Rate but Need a Bigger Home?",
+      "description": "Compare keeping the low payment, selling, renting the current home, adding space, or waiting before the house quietly decides for you.",
+      "reason": "SERP batch 2: low-rate move-up seller snippet cleanup."
+    },
+    {
+      "path": "/sell/is-your-longtime-home-a-clean-sale-prep-sale-or-patience-sale/",
+      "title": "Clean Sale, Prep Sale, or Patience Sale?",
+      "description": "A longtime home may need light presentation, targeted prep, or a patient as-is strategy. Choose the path based on condition, timing, and buyer confidence.",
+      "reason": "SERP batch 2: longtime-home seller snippet cleanup."
+    },
+    {
+      "path": "/sell/la-city-9a-report-what-homeowners-should-know-before-selling/",
+      "title": "LA City 9A Report Before Selling",
+      "description": "Before selling in Los Angeles, verify whether a Residential Property Report / 9A process applies and how it affects escrow, disclosures, and timing.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/long-beach-garage-resale-program-what-sellers-should-know-before-escrow/",
+      "title": "Long Beach Garage Resale Program for Sellers",
+      "description": "Long Beach sellers should verify whether the Garage Resale Program applies, what off-street parking records show, and how to avoid escrow surprises.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/move-up-math-for-long-beach-homeowners-sale-price-net-proceeds-and-next-payment/",
+      "title": "Selling and Buying Again in Long Beach: Move-Up Math",
+      "description": "Before selling and buying again in Long Beach, connect sale proceeds, loan payoff, seller costs, and the next monthly payment.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/move-up-seller-timing-in-la-and-oc-bridge-loan-heloc-or-rent-back/",
+      "title": "Bridge Loan, HELOC, or Rent-Back Before You Sell",
+      "description": "Compare bridge loans, HELOCs, rent-backs, and sell-first timing before using current-home equity to buy your next LA or OC home.",
+      "reason": "High-intent move-up seller page with title and meta-description crowding."
+    },
+    {
+      "path": "/sell/moving-from-east-long-beach-to-seal-beach-or-los-alamitos-sale-timing-schools-and-equity/",
+      "title": "East Long Beach to Seal Beach or Los Alamitos",
+      "description": "Before listing, compare school timing, home equity, payment, buyer offer strength, and next-home timing for a move toward Seal Beach or Los Alamitos.",
+      "reason": "Local move-up seller page with high-intent location sequence."
+    },
+    {
+      "path": "/sell/pre-listing-inspections-for-older-south-bay-and-long-beach-homes/",
+      "title": "Inspect Before Selling in South Bay or Long Beach",
+      "description": "Older South Bay and Long Beach homes may benefit from pre-listing inspection strategy before buyers control the repair conversation.",
+      "reason": "SERP high-intent batch 2: front-load homeowner action for inspection query."
+    },
+    {
+      "path": "/sell/redondo-beach-residential-building-report-what-sellers-should-know/",
+      "title": "Redondo Beach Residential Building Report",
+      "description": "Redondo Beach sellers should order the required residential building report early and use it to organize disclosures, timing, and buyer expectations.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/rent-backs-for-south-bay-long-beach-and-oc-homeowners-who-need-time-to-buy/",
+      "title": "Rent-Backs for Southern California Home Sellers",
+      "description": "A rent-back can buy time after closing, but only if buyer willingness, loan rules, written terms, insurance, and backup housing line up.",
+      "reason": "High-intent seller timing page with list-heavy snippet."
+    },
+    {
+      "path": "/sell/right-sizing-from-torrance-redondo-or-palos-verdes-condo-townhome-or-single-level-home/",
+      "title": "Right-Sizing From Torrance, Redondo, or Palos Verdes",
+      "description": "Compare stairs, HOA control, parking, maintenance, property-tax history, home type, and daily routine before choosing the smaller South Bay home.",
+      "reason": "Downsizing seller page with local and life-stage intent."
+    },
+    {
+      "path": "/sell/selling-a-home-with-unpermitted-work-in-la-county-or-orange-county/",
+      "title": "Selling a Home With Unpermitted Work in LA or OC",
+      "description": "For LA and OC sellers, organize permit records, disclosure duties, buyer risk, correction options, and pricing before listing.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/selling-a-long-beach-home-with-an-unpermitted-garage-conversion/",
+      "title": "Selling a Long Beach Home With a Garage Conversion",
+      "description": "Before selling, separate parking, permit history, code risk, disclosure, and whether correction or as-is pricing is realistic.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/selling-in-long-beach-and-buying-in-lakewood-cerritos-or-los-alamitos/",
+      "title": "Sell in Long Beach, Buy in Lakewood or Cerritos",
+      "description": "Before selling in Long Beach and buying nearby, match sale proceeds with payment, commute, schools, space, and offer strength.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/selling-in-torrance-and-buying-in-redondo-palos-verdes-or-orange-county/",
+      "title": "Selling in Torrance, Buying in Redondo or OC",
+      "description": "Before listing in Torrance, compare payment, school timing, lifestyle, maintenance, and offer strength for Redondo, Palos Verdes, or Orange County.",
+      "reason": "SERP batch 2: seller move-up description cleanup."
+    },
+    {
+      "path": "/sell/sewer-roof-electrical-and-foundation-what-to-check-before-selling-as-is/",
+      "title": "Selling As-Is? Check Sewer, Roof, Electrical, Foundation",
+      "description": "Before selling as-is, separate safety issues, inspection risk, disclosure needs, pricing, and repair choices.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/should-i-fix-my-torrance-home-before-selling-or-keep-updates-simple/",
+      "title": "Fix a Torrance Home Before Selling or Keep It Simple?",
+      "description": "Before remodeling, compare safety fixes, simple prep, buyer expectations, timing, and whether the work protects your net.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/should-i-sell-my-redondo-beach-home-as-is-or-fix-it-before-listing/",
+      "title": "Sell Redondo Beach Home As-Is or Fix First?",
+      "description": "Before spending on repairs, compare buyer confidence, likely price impact, timing, disclosures, and whether selling as-is may be cleaner.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/should-you-accept-a-cash-offer-or-list-an-as-is-home-locally/",
+      "title": "Cash Offer or List As-Is? Compare Before You Decide",
+      "description": "Before accepting a cash offer, compare certainty, exposure, repair risk, fees, and likely net proceeds from listing locally.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/should-you-buy-the-smaller-place-before-selling-the-bigger-home/",
+      "title": "Buy Before Selling When Downsizing",
+      "description": "Buying first can reduce move stress, but it can add financing, tax, overlap-cost, and sale-pressure risk if the bigger home is not ready.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/should-you-sell-first-or-buy-first-in-long-beach-south-bay-or-orange-county/",
+      "title": "Sell First or Buy First in Southern California?",
+      "description": "Compare sell-first, buy-first, rent-back, and bridge options before your current home and next home start pulling against each other.",
+      "reason": "High-intent seller sequencing page with long meta description."
+    },
+    {
+      "path": "/sell/should-you-stay-in-oc-move-to-long-beach-or-move-inland-after-55/",
+      "title": "OC Downsizing and Prop 19 Tradeoffs",
+      "description": "After 55, compare Orange County and Long Beach with Prop 19, monthly cost, family access, inland options, and lifestyle fit.",
+      "reason": "SERP high-intent batch 2: clear remaining actionable title/meta review queue."
+    },
+    {
+      "path": "/sell/should-you-use-the-same-agent-to-sell-and-buy-locally/",
+      "title": "Use the Same Agent to Sell and Buy Locally?",
+      "description": "One agent can improve coordination, but only if they can handle both markets, timing, negotiation, privacy, and backup planning.",
+      "reason": "SERP batch 2: local sell-and-buy snippet cleanup."
+    },
+    {
+      "path": "/sell/south-bay-move-up-sellers-prep-price-or-wait/",
+      "title": "South Bay Move-Up Sellers: Prep, Price, or Wait",
+      "description": "Decide whether to prepare, price, or wait by comparing buyer demand, condition, next-home timing, money left after selling, and next-payment risk.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/south-bay-to-long-beach-trading-location-space-and-payment/",
+      "title": "South Bay to Long Beach: Space, Payment, Timing",
+      "description": "Compare lifestyle, space, commute, condition, payment, and sale strength before treating Long Beach as the easier next move.",
+      "reason": "SERP batch 2: seller relocation description cleanup."
+    },
+    {
+      "path": "/sell/the-10-mile-move-selling-and-buying-locally-without-losing-control/",
+      "title": "Selling and Buying Nearby Without Losing Control",
+      "description": "A local move still needs sequencing. Compare equity, timing, rent-back, temporary housing, and offer strength before listing your current home.",
+      "reason": "Move-up seller page with high conversion relevance."
+    },
+    {
+      "path": "/sell/the-90-day-downsizer-readiness-check-for-longtime-la-and-oc-homeowners/",
+      "title": "90-Day Downsizer Readiness Check",
+      "description": "Use a 90-day framework to organize documents, property condition, tax questions, replacement-home criteria, and family communication before listing.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/what-kind-of-selling-experience-will-your-starter-home-create-in-the-next-3-6-months/",
+      "title": "Will Your Starter Home Sell Fast Enough?",
+      "description": "Review likely buyers, price range, condition, financing, showing feedback, and timing before assuming the starter-home sale will move quickly.",
+      "reason": "SERP batch 2: starter-home seller snippet cleanup."
+    },
+    {
+      "path": "/sell/what-repairs-matter-most-before-selling-an-older-long-beach-home/",
+      "title": "What Repairs Matter Before Selling an Older Long Beach Home?",
+      "description": "Before selling an older Long Beach home, compare major systems, cosmetic prep, disclosure, and buyer confidence.",
+      "reason": "SERP high-intent batch: answer-first snippet cleanup for urgent homeowner queries."
+    },
+    {
+      "path": "/sell/when-your-sale-window-and-purchase-window-do-not-match/",
+      "title": "When Selling and Buying Timelines Do Not Match",
+      "description": "If one side of the move is ready before the other, choose a timing path before pressure forces the sale or purchase decision.",
+      "reason": "SERP batch 2: seller timing description cleanup."
+    },
+    {
+      "path": "/sell/will-your-south-bay-home-sale-actually-carry-you-into-the-next-price-range/",
+      "title": "Use South Bay Equity to Buy Your Next Home",
+      "description": "Estimate whether your South Bay sale money, buyer demand, mortgage payoff, and next monthly payment can support the next home before you list.",
+      "reason": "SERP batch 3: shorten title while preserving problem-first search intent."
+    },
+    {
+      "path": "/sell/your-zestimate-is-not-your-move-up-budget/",
+      "title": "Zestimate vs Money Left After Selling",
+      "description": "Online estimates are only a start. Your move-up budget depends on payoff, costs, taxes, buyer terms, payment, and timing after the sale.",
+      "reason": "SERP batch 2: seller move-up budget description cleanup."
+    }
+  ]
+}
