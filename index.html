@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Israel Hernandez | Think Boutiq Real Estate | DRE 02148476</title>
     <meta name="description" content="Real estate guidance for buyers, sellers, homeowners, relocators, investors, and local-area decisions across LA and Orange County.">
-    <link rel="stylesheet" href="styles.css?v=homepage-nav-20260708a">
+    <link rel="stylesheet" href="styles.css?v=homepage-decision-context-20260709a">
     <!-- CRAWLABILITY_META_START -->
     <link rel="canonical" href="https://homesbyisraelhe.com/">
 
@@ -487,105 +487,136 @@
         </div>
 
         <div class="decision-bento" aria-label="Decision-state starting points">
-          <a class="decision-state-card decision-state-card--large" href="homeowners/#article-library" data-intent="homeowners">
+          <a class="decision-state-card decision-state-card--large" href="homeowners/#article-library" data-decision-route="moving-sense" data-intent="homeowners" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Before a move</span>
             <h3>I&rsquo;m wondering if moving even makes sense</h3>
             <p>Separate the life pressure from the property decision, then compare what staying, waiting, selling, or renting would really change.</p>
-            <span class="card-link">Clarify the decision</span>
+            <span class="card-link">Show recommended path</span>
           </a>
 
-          <a class="decision-state-card decision-state-card--medium" href="sell/#article-library" data-intent="home-value">
+          <a class="decision-state-card decision-state-card--medium" href="market-trends/" data-decision-route="home-value" data-intent="home-value" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Value first</span>
             <h3>I need to know what my home is worth before I decide</h3>
             <p>Start with condition, local demand, likely buyer objections, and the price range that would make a move possible.</p>
-            <span class="card-link">Review a value path</span>
+            <span class="card-link">Show recommended path</span>
           </a>
 
-          <a class="decision-state-card decision-state-card--compact" href="move-relocate/#article-library" data-intent="moving">
+          <a class="decision-state-card decision-state-card--compact" href="move-relocate/#article-library" data-decision-route="right-order" data-intent="moving" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Order of operations</span>
             <h3>I know I want to move but don&rsquo;t know the right order</h3>
             <p>Map the current home, next home, financing, lease dates, school calendars, and move window before taking action.</p>
-            <span class="card-link">Plan the sequence</span>
+            <span class="card-link">Show recommended path</span>
           </a>
 
-          <a class="decision-state-card" href="move-relocate/#article-library" data-intent="moving">
+          <a class="decision-state-card" href="move-relocate/#article-library" data-decision-route="two-transactions" data-intent="moving" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Two transactions</span>
             <h3>I need to buy and sell without everything colliding</h3>
             <p>Compare sell-first, buy-first, contingent, temporary housing, and bridge-style options before the calendar gets tight.</p>
-            <span class="card-link">Line up both sides</span>
+            <span class="card-link">Show recommended path</span>
           </a>
 
-          <a class="decision-state-card" href="local-areas/#article-library" data-intent="local-area-research">
+          <a class="decision-state-card" href="local-areas/#article-library" data-decision-route="area-move" data-intent="local-area-research" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Local fit</span>
             <h3>I&rsquo;m moving into or out of the area</h3>
             <p>Use commute, housing type, budget, schools, daily life, and market pace to compare cities before narrowing the search.</p>
-            <span class="card-link">Compare local areas</span>
+            <span class="card-link">Show recommended path</span>
           </a>
 
-          <a class="decision-state-card decision-state-card--photo" href="homeowners/#article-library" data-intent="owning">
+          <a class="decision-state-card decision-state-card--photo" href="homeowners/#article-library" data-decision-route="property-situation" data-intent="owning" aria-controls="decision-recommendation-panel" aria-expanded="false">
             <span class="card-kicker">Property problem</span>
             <h3>I have a property situation to solve</h3>
             <p>Work through repairs, tenants, inheritance, rental questions, holding costs, privacy, or a property that no longer fits.</p>
-            <span class="card-link">Sort the situation</span>
+            <span class="card-link">Show recommended path</span>
           </a>
         </div>
+
+        <aside class="decision-recommendation" id="decision-recommendation-panel" data-decision-recommendation aria-live="polite" tabindex="-1">
+          <div class="decision-recommendation__copy">
+            <p class="eyebrow">Recommended path</p>
+            <h3>Start by deciding whether the move itself makes sense.</h3>
+            <p>Use homeowner guidance when you are comparing staying, waiting, selling, renting, or repairing before you pick a public search path.</p>
+          </div>
+          <ul class="decision-recommendation__questions" aria-label="Helpful questions for this path">
+            <li>What changes if you stay another year?</li>
+            <li>Would selling, renting, or repairing solve the real pressure?</li>
+            <li>What local context would make the next step clearer?</li>
+          </ul>
+          <div class="decision-recommendation__actions">
+            <a class="button button-primary" href="homeowners/#article-library" data-intent="homeowners">Review Homeowner Options</a>
+            <a class="button button-secondary" href="#contact-israel" data-intent="homeowners">Talk Through My Situation</a>
+          </div>
+        </aside>
       </section>
 
       <section class="home-section market-context-section" id="market-context" aria-labelledby="market-context-title">
         <div class="market-context-shell">
           <div class="home-section__heading home-section__heading--split">
             <div>
-              <p class="eyebrow">Market Context</p>
-              <h2 id="market-context-title">Market Context</h2>
+              <p class="eyebrow">Context choice</p>
+              <h2 id="market-context-title">Choose the context you need next</h2>
             </div>
-            <p>Once you know the decision in front of you, use local context to compare areas, timing, pricing, and tradeoffs before making your next move.</p>
+            <p>Compare places when you are deciding where to focus. Read market reports when timing, pricing, inventory, or leverage is the question.</p>
           </div>
 
-          <div class="market-context-grid" aria-label="Market context selectors">
-            <article class="market-context-card market-context-card--feature">
+          <div class="context-choice-grid" aria-label="Choose local area or market report context">
+            <article class="context-choice-card context-choice-card--places">
               <a href="local-areas/#article-library" data-intent="local-area-research">
                 <img src="assets/home-market-street.jpg" alt="Warm home interior representing local area comparison">
-                <div class="market-context-card__body">
-                  <span class="card-kicker">Area fit</span>
-                  <h3>Explore Local Areas</h3>
-                  <p>Compare cities and neighborhoods by commute, lifestyle, housing type, budget, and resale flexibility.</p>
+                <div class="context-choice-card__body">
+                  <span class="card-kicker">Where should I focus?</span>
+                  <h3>Compare Places Before Choosing One</h3>
+                  <p>For neighborhood fit, commute, lifestyle, housing type, schools, budget, and resale flexibility before committing to one area.</p>
                   <span class="card-link">Explore Local Areas</span>
                 </div>
               </a>
             </article>
 
-            <article class="market-context-card">
-              <a href="local-areas/#article-library" data-intent="local-area-research">
-                <div class="market-context-card__body">
-                  <span class="card-kicker">Regional tradeoffs</span>
-                  <h3>LA County Context</h3>
-                  <p>Understand major tradeoffs across Los Angeles County.</p>
-                  <span class="card-link">Review LA County context</span>
+            <article class="context-choice-card context-choice-card--reports">
+              <a href="market-trends/" data-intent="market-context">
+                <div class="context-choice-card__body">
+                  <span class="card-kicker">What is the market doing?</span>
+                  <h3>Read The Latest Market Reports</h3>
+                  <p>For inventory, pricing, days on market, buyer competition, seller leverage, and plain-English market reads.</p>
+                  <div class="context-choice-signals" aria-label="Market report signals">
+                    <span>Inventory</span>
+                    <span>Pricing</span>
+                    <span>Days on market</span>
+                    <span>Leverage</span>
+                  </div>
+                  <span class="card-link">Open Market Reports</span>
                 </div>
               </a>
             </article>
 
-            <article class="market-context-card market-context-card--warm">
-              <a href="local-areas/#article-library" data-intent="local-area-research">
-                <div class="market-context-card__body">
-                  <span class="card-kicker">Regional tradeoffs</span>
-                  <h3>Orange County Context</h3>
-                  <p>Understand major tradeoffs across Orange County.</p>
-                  <span class="card-link">Review Orange County context</span>
-                </div>
-              </a>
+            <article class="context-county-card">
+              <div>
+                <span class="card-kicker">Los Angeles County</span>
+                <h3>LA County</h3>
+                <p>Use this when your decision crosses LA County cities, neighborhoods, commute routes, or market conditions.</p>
+              </div>
+              <div class="context-county-actions" aria-label="LA County context actions">
+                <a href="local-areas/?q=Los%20Angeles%20County#article-library" data-intent="local-area-research">Compare LA areas</a>
+                <a href="market-trends/?q=Los%20Angeles%20County#article-library" data-intent="market-context">Read LA reports</a>
+              </div>
             </article>
 
-            <article class="market-context-card market-context-card--dark">
-              <a href="market-trends/">
-                <div class="market-context-card__body">
-                  <span class="card-kicker">Live reads</span>
-                  <h3>Market Trends</h3>
-                  <p>Track inventory, pricing, days on market, leverage, and plain-English market reads.</p>
-                  <span class="card-link">Open Market Trends</span>
-                </div>
-              </a>
+            <article class="context-county-card context-county-card--warm">
+              <div>
+                <span class="card-kicker">Orange County</span>
+                <h3>Orange County</h3>
+                <p>Use this when your decision involves Orange County lifestyle, pricing, commute, or market timing.</p>
+              </div>
+              <div class="context-county-actions" aria-label="Orange County context actions">
+                <a href="local-areas/?q=Orange%20County#article-library" data-intent="local-area-research">Compare OC areas</a>
+                <a href="market-trends/?q=Orange%20County#article-library" data-intent="market-context">Read OC reports</a>
+              </div>
             </article>
+
+            <div class="context-choice-note" aria-label="How to choose local or market context">
+              <span>Where should I focus? <strong>Local Areas</strong></span>
+              <span>What is the market doing? <strong>Market Reports</strong></span>
+              <span>How does this affect my move? <strong>Talk it through</strong></span>
+            </div>
           </div>
         </div>
       </section>
@@ -691,6 +722,6 @@
     </footer>
     <script src="library-data.js"></script>
     <script src="guidance-search.js"></script>
-    <script src="script.js?v=nav-routing-20260708a"></script>
+    <script src="script.js?v=homepage-decision-context-20260709a"></script>
   </body>
 </html>

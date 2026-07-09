@@ -424,6 +424,8 @@ const siteIndex = [
 
 const decisionPanel = document.querySelector("#decision-panel");
 const decisionButtons = document.querySelectorAll(".decision-card");
+const homepageDecisionCards = document.querySelectorAll("[data-decision-route]");
+const homepageDecisionRecommendation = document.querySelector("[data-decision-recommendation]");
 const pathTrack = document.querySelector("#path-cards");
 const pathTabs = document.querySelectorAll("[data-path-tab][role='tab']");
 const localTrack = document.querySelector("#local-cards");
@@ -448,6 +450,75 @@ const navHubHrefs = {
 let intakePreviousFocus = null;
 let activeIntakeForm = null;
 let pendingContactIntent = "Private question";
+
+const homepageDecisionRoutes = {
+  "moving-sense": {
+    title: "Start by deciding whether the move itself makes sense.",
+    copy: "Use homeowner guidance when you are comparing staying, waiting, selling, renting, or repairing before you pick a public search path.",
+    questions: [
+      "What changes if you stay another year?",
+      "Would selling, renting, or repairing solve the real pressure?",
+      "What local context would make the next step clearer?"
+    ],
+    primary: ["Review Homeowner Options", "homeowners/#article-library", "homeowners"],
+    secondary: ["Talk Through My Situation", "#contact-israel", "homeowners"]
+  },
+  "home-value": {
+    title: "Start with value, timing, and local demand before choosing a path.",
+    copy: "Market context helps you understand whether pricing, inventory, days on market, or buyer leverage should shape the next move.",
+    questions: [
+      "Is the question really price, timing, repairs, or net proceeds?",
+      "What are similar homes doing right now?",
+      "Would a market report answer enough, or do you need a property-specific read?"
+    ],
+    primary: ["Read Market Reports", "market-trends/", "market-context"],
+    secondary: ["Talk Through My Situation", "#contact-israel", "home-value"]
+  },
+  "right-order": {
+    title: "Plan the order before you commit to a timeline.",
+    copy: "A move sequence should connect the current home, next home, financing, lease dates, school calendars, commute, and household pressure.",
+    questions: [
+      "Which deadline is real and which one is flexible?",
+      "Does the next area need to be chosen before the current home decision?",
+      "What would create the most expensive mistake if it happened out of order?"
+    ],
+    primary: ["Plan The Move Sequence", "move-relocate/#article-library", "moving"],
+    secondary: ["Explore Local Areas", "local-areas/#article-library", "local-area-research"]
+  },
+  "two-transactions": {
+    title: "Line up both sides before the calendar gets tight.",
+    copy: "Buying and selling together needs a sequence plan, a market read, and backup options before one transaction starts controlling the other.",
+    questions: [
+      "Would selling first, buying first, or a contingency lower the risk?",
+      "How much temporary housing or bridge timing is realistic?",
+      "What is the market doing in both the sell area and buy area?"
+    ],
+    primary: ["Plan Buy/Sell Timing", "move-relocate/#article-library", "moving"],
+    secondary: ["Check Market Reports", "market-trends/", "market-context"]
+  },
+  "area-move": {
+    title: "Compare places before you commit to one search area.",
+    copy: "Local Areas is the right next step when commute, lifestyle, housing type, schools, budget, and resale flexibility matter more than one listing.",
+    questions: [
+      "Which daily routine are you trying to protect?",
+      "Are you comparing neighborhoods, cities, or counties?",
+      "Do you need place fit first or a market report first?"
+    ],
+    primary: ["Explore Local Areas", "local-areas/#article-library", "local-area-research"],
+    secondary: ["Check Market Reports", "market-trends/", "market-context"]
+  },
+  "property-situation": {
+    title: "Sort the property situation before choosing the public path.",
+    copy: "Use homeowner guidance or a private conversation when repairs, tenants, inheritance, rental questions, privacy, or holding costs change the first step.",
+    questions: [
+      "Is this a repair issue, timing issue, privacy issue, or ownership issue?",
+      "Does the property need to be sold, rented, held, or stabilized first?",
+      "Would public guidance help, or is this better talked through privately?"
+    ],
+    primary: ["Review Homeowner Options", "homeowners/#article-library", "owning"],
+    secondary: ["Talk Through My Situation", "#contact-israel", "owning"]
+  }
+};
 
 function navHubHrefForTrigger(trigger) {
   if (!trigger) return "";
@@ -510,6 +581,46 @@ function selectDecision(key) {
   const inline = document.querySelector(`#decision-inline-${key}`);
   if (inline) {
     inline.innerHTML = decisionMarkup(data, true);
+  }
+}
+
+function homepageDecisionRecommendationMarkup(data) {
+  const questions = data.questions.map((question) => `<li>${question}</li>`).join("");
+  return `
+    <div class="decision-recommendation__copy">
+      <p class="eyebrow">Recommended path</p>
+      <h3>${data.title}</h3>
+      <p>${data.copy}</p>
+    </div>
+    <ul class="decision-recommendation__questions" aria-label="Helpful questions for this path">
+      ${questions}
+    </ul>
+    <div class="decision-recommendation__actions">
+      <a class="button button-primary" href="${data.primary[1]}" data-intent="${data.primary[2]}">${data.primary[0]}</a>
+      <a class="button button-secondary" href="${data.secondary[1]}" data-intent="${data.secondary[2]}">${data.secondary[0]}</a>
+    </div>
+  `;
+}
+
+function selectHomepageDecisionRoute(key, options = {}) {
+  if (!homepageDecisionRecommendation || !homepageDecisionCards.length) return;
+  const data = homepageDecisionRoutes[key] || homepageDecisionRoutes["moving-sense"];
+
+  homepageDecisionCards.forEach((card) => {
+    const selected = card.dataset.decisionRoute === key;
+    card.classList.toggle("is-selected", selected);
+    card.setAttribute("aria-expanded", String(selected));
+  });
+
+  homepageDecisionRecommendation.innerHTML = homepageDecisionRecommendationMarkup(data);
+
+  if (options.focus) {
+    window.requestAnimationFrame(() => {
+      homepageDecisionRecommendation.focus({ preventScroll: true });
+      if (window.matchMedia("(max-width: 760px)").matches) {
+        homepageDecisionRecommendation.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
   }
 }
 
@@ -1343,6 +1454,24 @@ decisionButtons.forEach((button) => {
   });
 });
 
+homepageDecisionCards.forEach((card) => {
+  card.addEventListener("click", (event) => {
+    if (
+      event.defaultPrevented ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey ||
+      event.button !== 0
+    ) {
+      return;
+    }
+
+    event.preventDefault();
+    selectHomepageDecisionRoute(card.dataset.decisionRoute, { focus: true });
+  });
+});
+
 pathTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     renderPathCards(tab.dataset.pathTab);
@@ -1415,6 +1544,9 @@ document.addEventListener("keydown", (event) => {
 
 normalizeHubNavigationLinks();
 selectDecision("compare-local");
+if (homepageDecisionCards.length) {
+  selectHomepageDecisionRoute(homepageDecisionCards[0].dataset.decisionRoute);
+}
 renderPathCards("buying");
 renderLocalCards("nearby");
 initHomeContactForm();
