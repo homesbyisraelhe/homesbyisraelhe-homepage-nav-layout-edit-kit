@@ -167,7 +167,7 @@
 }
     </script>
     <!-- CRAWLABILITY_META_END -->
-  </head>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script></head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
 
@@ -182,26 +182,12 @@
           </span>
         </a>
 
-        <form class="header-search desktop-search" role="search" aria-label="Site search" data-site-search>
-          <label class="visually-hidden" for="desktop-search-input">Search local guidance</label>
-          <input id="desktop-search-input" name="q" type="search" placeholder="Search local guidance, cities, repairs, rent, timing">
-          <button type="submit">Search</button>
-        </form>
-
-        <a class="header-contact" href="#contact-israel" data-intent="contact" data-source="header">Contact Israel</a>
-
         <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </button>
       </div>
-
-      <form class="mobile-search" role="search" aria-label="Mobile site search" data-site-search>
-        <label class="visually-hidden" for="mobile-search-input">Search local guidance</label>
-        <input id="mobile-search-input" name="q" type="search" placeholder="Search local guidance">
-        <button type="submit">Go</button>
-      </form>
 
       <nav class="primary-nav" aria-label="Primary navigation">
         <div class="nav-item">
@@ -468,306 +454,189 @@
       </div>
     </div>
 
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Southern California Real Estate Guidance</p>
-            <h1 id="hero-title">Start with the real estate decision in front of you.</h1>
-            <p class="hero-lede">Compare buying, selling, moving, holding, repairing, investing, and local-area decisions before pressure takes over.</p>
-            <div class="hero-actions" data-intent="homepage-situation" data-source="hero">
-              <a class="button button-primary" href="#decision-dashboard">Start with your situation</a>
-              <button class="button button-secondary" type="button" data-open-search>Search local guidance</button>
+        <main id="main" class="bg-gray-50/50 pb-20">
+      <section class="relative pt-24 pb-20 px-6 max-w-5xl mx-auto flex flex-col items-center text-center">
+        <div class="absolute inset-0 z-0 flex justify-center items-center pointer-events-none overflow-hidden">
+           <div class="w-full max-w-3xl h-64 bg-slate-200/50 rounded-full blur-3xl opacity-60"></div>
+        </div>
+
+        <div class="relative z-10 w-full">
+          <p class="text-sm font-semibold tracking-wider text-slate-500 uppercase mb-4">Southern California Real Estate Guidance</p>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 text-balance leading-tight mb-8">
+            Start with the real estate decision in front of you.
+          </h1>
+          <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10 text-balance">
+            Compare buying, selling, moving, holding, repairing, investing, and local-area decisions before pressure takes over.
+          </p>
+
+          <form action="/search/" class="max-w-2xl mx-auto relative group shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 rounded-xl overflow-hidden bg-white flex items-center border border-slate-200 focus-within:ring-2 focus-within:ring-slate-900/20 focus-within:border-slate-400" role="search" aria-label="Search local guidance" data-site-search>
+            <label class="sr-only" for="main-search-input">Search your specific topic</label>
+            <input id="main-search-input" name="q" type="search" placeholder="Search local areas, repairs, rent, timing..." class="w-full py-5 pl-6 pr-4 text-lg text-slate-800 outline-none bg-transparent placeholder-slate-400 focus:outline-none focus:ring-0 border-none m-0">
+            <button type="submit" class="px-8 py-5 bg-slate-900 text-white font-semibold whitespace-nowrap hover:bg-slate-800 transition-colors border-none m-0">
+              Search
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="home-section start-here-section" id="decision-dashboard" aria-labelledby="start-here-title">
+        <div class="home-section__heading">
+          <p class="eyebrow">Start Here</p>
+          <h2 id="start-here-title">Start Here: What decision are you trying to make?</h2>
+          <p>Choose the situation that sounds closest. Each path starts with the real-world decision, then points you toward the right local guidance.</p>
+        </div>
+
+        <div class="decision-bento" aria-label="Decision-state starting points">
+          <a class="decision-state-card decision-state-card--large" href="homeowners/#article-library" data-intent="homeowners">
+            <span class="card-kicker">Before a move</span>
+            <h3>I&rsquo;m wondering if moving even makes sense</h3>
+            <p>Separate the life pressure from the property decision, then compare what staying, waiting, selling, or renting would really change.</p>
+            <span class="card-link">Clarify the decision</span>
+          </a>
+
+          <a class="decision-state-card decision-state-card--medium" href="sell/#article-library" data-intent="home-value">
+            <span class="card-kicker">Value first</span>
+            <h3>I need to know what my home is worth before I decide</h3>
+            <p>Start with condition, local demand, likely buyer objections, and the price range that would make a move possible.</p>
+            <span class="card-link">Review a value path</span>
+          </a>
+
+          <a class="decision-state-card decision-state-card--compact" href="move-relocate/#article-library" data-intent="moving">
+            <span class="card-kicker">Order of operations</span>
+            <h3>I know I want to move but don&rsquo;t know the right order</h3>
+            <p>Map the current home, next home, financing, lease dates, school calendars, and move window before taking action.</p>
+            <span class="card-link">Plan the sequence</span>
+          </a>
+
+          <a class="decision-state-card" href="move-relocate/#article-library" data-intent="moving">
+            <span class="card-kicker">Two transactions</span>
+            <h3>I need to buy and sell without everything colliding</h3>
+            <p>Compare sell-first, buy-first, contingent, temporary housing, and bridge-style options before the calendar gets tight.</p>
+            <span class="card-link">Line up both sides</span>
+          </a>
+
+          <a class="decision-state-card" href="local-areas/#article-library" data-intent="local-area-research">
+            <span class="card-kicker">Local fit</span>
+            <h3>I&rsquo;m moving into or out of the area</h3>
+            <p>Use commute, housing type, budget, schools, daily life, and market pace to compare cities before narrowing the search.</p>
+            <span class="card-link">Compare local areas</span>
+          </a>
+
+          <a class="decision-state-card decision-state-card--photo" href="homeowners/#article-library" data-intent="owning">
+            <span class="card-kicker">Property problem</span>
+            <h3>I have a property situation to solve</h3>
+            <p>Work through repairs, tenants, inheritance, rental questions, holding costs, privacy, or a property that no longer fits.</p>
+            <span class="card-link">Sort the situation</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="home-section market-context-section" id="market-context" aria-labelledby="market-context-title">
+        <div class="market-context-shell">
+          <div class="home-section__heading home-section__heading--split">
+            <div>
+              <p class="eyebrow">Market Context</p>
+              <h2 id="market-context-title">Market Context</h2>
             </div>
-            <div class="hero-quicklinks" aria-label="Common starting points">
-              <a href="local-areas/#article-library">Compare Local Areas</a>
-              <a href="housing-market-pulse/">Housing Market Pulse</a>
-              <a href="buy/#article-library">Plan a purchase</a>
-              <a href="homeowners/#article-library">Review homeowner options</a>
-              <a href="move-relocate/#article-library">Line up a move</a>
-            </div>
+            <p>Once you know the decision in front of you, use local context to compare areas, timing, pricing, and tradeoffs before making your next move.</p>
           </div>
-          <figure class="hero-media">
-            <img src="assets/portal/hero-luxury-home.png" alt="Modern Southern California home exterior at dusk">
-            <figcaption>
-              <strong>Decision lens</strong>
-              <span>Place, timing, property condition, and next-step risk all change the right path.</span>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
 
-      <section class="mission-strip" aria-labelledby="mission-title">
-        <h2 id="mission-title">Clearer local decisions before the market, timing, repairs, or life circumstances make the choice louder.</h2>
-      </section>
+          <div class="market-context-grid" aria-label="Market context selectors">
+            <article class="market-context-card market-context-card--feature">
+              <a href="local-areas/#article-library" data-intent="local-area-research">
+                <img src="assets/home-market-street.jpg" alt="Warm home interior representing local area comparison">
+                <div class="market-context-card__body">
+                  <span class="card-kicker">Area fit</span>
+                  <h3>Explore Local Areas</h3>
+                  <p>Compare cities and neighborhoods by commute, lifestyle, housing type, budget, and resale flexibility.</p>
+                  <span class="card-link">Explore Local Areas</span>
+                </div>
+              </a>
+            </article>
 
-      <section class="section decision-section" id="decision-dashboard" aria-labelledby="decision-title">
-        <div class="section-heading decision-heading">
-          <p class="eyebrow">Decision Dashboard</p>
-          <h2 id="decision-title">What are you trying to figure out first?</h2>
-          <p>Choose the closest situation. You will get a useful next step before any contact ask.</p>
-        </div>
-        <div class="decision-console">
-          <div class="decision-visual" aria-hidden="true">
-            <img src="assets/portal/decision-options.png" alt="">
+            <article class="market-context-card">
+              <a href="local-areas/#article-library" data-intent="local-area-research">
+                <div class="market-context-card__body">
+                  <span class="card-kicker">Regional tradeoffs</span>
+                  <h3>LA County Context</h3>
+                  <p>Understand major tradeoffs across Los Angeles County.</p>
+                  <span class="card-link">Review LA County context</span>
+                </div>
+              </a>
+            </article>
+
+            <article class="market-context-card market-context-card--warm">
+              <a href="local-areas/#article-library" data-intent="local-area-research">
+                <div class="market-context-card__body">
+                  <span class="card-kicker">Regional tradeoffs</span>
+                  <h3>Orange County Context</h3>
+                  <p>Understand major tradeoffs across Orange County.</p>
+                  <span class="card-link">Review Orange County context</span>
+                </div>
+              </a>
+            </article>
+
+            <article class="market-context-card market-context-card--dark">
+              <a href="market-trends/">
+                <div class="market-context-card__body">
+                  <span class="card-kicker">Live reads</span>
+                  <h3>Market Trends</h3>
+                  <p>Track inventory, pricing, days on market, leverage, and plain-English market reads.</p>
+                  <span class="card-link">Open Market Trends</span>
+                </div>
+              </a>
+            </article>
           </div>
-          <div class="decision-options" role="list" aria-label="Choose your real estate situation">
-            <div class="decision-option" role="listitem">
-              <button class="decision-card is-selected" type="button" data-decision="compare-local" aria-pressed="true" aria-controls="decision-panel decision-inline-compare-local">I'm comparing cities or neighborhoods</button>
-              <div class="decision-inline" id="decision-inline-compare-local"></div>
-            </div>
-            <div class="decision-option" role="listitem">
-              <button class="decision-card" type="button" data-decision="buyer-plan" aria-pressed="false" aria-controls="decision-panel decision-inline-buyer-plan">I'm buying and need a local plan</button>
-              <div class="decision-inline" id="decision-inline-buyer-plan"></div>
-            </div>
-            <div class="decision-option" role="listitem">
-              <button class="decision-card" type="button" data-decision="homeowner-options" aria-pressed="false" aria-controls="decision-panel decision-inline-homeowner-options">I'm a homeowner and need options</button>
-              <div class="decision-inline" id="decision-inline-homeowner-options"></div>
-            </div>
-            <div class="decision-option" role="listitem">
-              <button class="decision-card" type="button" data-decision="moving-timing" aria-pressed="false" aria-controls="decision-panel decision-inline-moving-timing">I'm moving and timing matters</button>
-              <div class="decision-inline" id="decision-inline-moving-timing"></div>
-            </div>
-            <div class="decision-option" role="listitem">
-              <button class="decision-card" type="button" data-decision="sell-rent-hold" aria-pressed="false" aria-controls="decision-panel decision-inline-sell-rent-hold">I'm deciding whether to sell, rent, or hold</button>
-              <div class="decision-inline" id="decision-inline-sell-rent-hold"></div>
-            </div>
-            <div class="decision-option" role="listitem">
-              <button class="decision-card" type="button" data-decision="private-answer" aria-pressed="false" aria-controls="decision-panel decision-inline-private-answer">I need a private answer</button>
-              <div class="decision-inline" id="decision-inline-private-answer"></div>
-            </div>
-          </div>
-          <aside class="decision-panel" id="decision-panel" aria-live="polite" aria-label="Recommended next step"></aside>
         </div>
       </section>
 
-      <section class="section paths-section" id="useful-paths" aria-labelledby="paths-title">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Useful Paths</p>
-            <h2 id="paths-title">Useful paths for common real estate decisions</h2>
-          </div>
-          <a class="button button-secondary view-more-link" href="#resources">View more</a>
-        </div>
-        <div class="tabs-row" role="tablist" aria-label="Useful path categories">
-          <button type="button" role="tab" aria-selected="true" data-path-tab="buying">Buying</button>
-          <button type="button" role="tab" aria-selected="false" data-path-tab="selling">Selling</button>
-          <button type="button" role="tab" aria-selected="false" data-path-tab="moving">Moving</button>
-          <button type="button" role="tab" aria-selected="false" data-path-tab="homeowners">Homeowners</button>
-          <button type="button" role="tab" aria-selected="false" data-path-tab="investing">Investing</button>
-          <button type="button" role="tab" aria-selected="false" data-path-tab="local-areas">Local Areas</button>
-        </div>
-        <div class="carousel-shell">
-          <button class="carousel-button" type="button" data-carousel-prev="path-cards" aria-label="Previous useful path">Prev</button>
-          <div class="article-track" id="path-cards" role="tabpanel" tabindex="0" aria-live="polite"></div>
-          <button class="carousel-button" type="button" data-carousel-next="path-cards" aria-label="Next useful path">Next</button>
-        </div>
-      </section>
-
-      <section class="section authority-paths-section" aria-labelledby="authority-paths-title">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Specific Questions</p>
-            <h2 id="authority-paths-title">Open the guide that sounds closest to your situation.</h2>
-            <p>These are deeper decision paths for buyers, sellers, movers, and homeowners who already know the problem they are trying to sort out.</p>
-          </div>
-          <button class="button button-secondary" type="button" data-open-search>Search all guides</button>
-        </div>
-        <div class="authority-path-grid" aria-label="Specific real estate guide routes">
-          <section class="authority-path-card">
-            <h3>Buyer due diligence</h3>
-            <p>Use these before a contract detail becomes a surprise.</p>
-            <a href="buy/appraisal-gaps-in-south-bay-long-beach-and-orange-county-what-buyers-should-know/">Appraisal gap questions before writing an offer</a>
-            <a href="buy/earnest-money-deposits-in-california/">Earnest money deposit decisions in California</a>
-            <a href="buy/fire-insurance-questions-before-buying-in-palos-verdes-south-oc-or-hillside-areas/">Fire insurance questions for hillside or higher-risk areas</a>
-            <a href="buy/flood-zones-liquefaction-and-coastal-risk-for-south-bay-and-long-beach-buyers/">Flood, liquefaction, and coastal-risk checks</a>
-            <a href="buy/foundation-and-drainage-issues-in-south-bay-and-coastal-la-homes/">Foundation and drainage issues in older local homes</a>
-          </section>
-          <section class="authority-path-card">
-            <h3>Local buyer strategy</h3>
-            <p>Use these when the right move depends on area fit, timing, or competition.</p>
-            <a href="buy/how-job-growth-near-anduril-spacex-northrop-and-the-ports-can-affect-buyer-timing/">How local job growth can affect buyer timing</a>
-            <a href="buy/how-to-compete-against-cash-buyers-in-long-beach-and-the-south-bay/">Competing against cash buyers without guessing</a>
-            <a href="buy/how-to-use-days-on-market-and-price-reductions-before-making-an-offer/">Using days on market and price reductions before offering</a>
-            <a href="buy/older-homes-in-long-beach-sewer-foundation-electrical-and-permit-issues-to-check/">Older Long Beach homes: sewer, foundation, electrical, and permits</a>
-            <a href="buy/rossmoor-ca-buyer-guide-homes-schools-lifestyle-and-local-tradeoffs/">Rossmoor buyer guide: homes, schools, and local tradeoffs</a>
-          </section>
-          <section class="authority-path-card">
-            <h3>Homeowner pressure points</h3>
-            <p>Use these when timing, family, occupancy, or money pressure changes the first step.</p>
-            <a href="homeowners/behind-on-your-mortgage-in-la-county-what-to-decide-before-a-trustee-sale-date/">Behind on mortgage before a trustee-sale date</a>
-            <a href="homeowners/received-a-notice-of-default-in-long-beach-first-decisions-before-you-sell-or-wait/">Notice of Default in Long Beach: first decisions</a>
-            <a href="homeowners/property-taxes-behind-in-la-or-oc-first-decisions-before-a-tax-sale-risk-grows/">Property taxes behind in LA or Orange County</a>
-            <a href="homeowners/one-spouse-wants-to-keep-the-home-one-wants-to-sell-first-real-estate-decisions/">One spouse wants to keep the home and one wants to sell</a>
-            <a href="homeowners/selling-a-tenant-occupied-property-in-la-county-or-orange-county-first-decisions/">Selling a tenant-occupied property in LA or Orange County</a>
-          </section>
-          <section class="authority-path-card">
-            <h3>Moving, downsizing, or changing strategy</h3>
-            <p>Use these when the sale, next home, commute, or equity plan all connect.</p>
-            <a href="move-relocate/cerritos-vs-downey-vs-lakewood-vs-bellflower-which-gateway-city-fits-your-life/">Cerritos, Downey, Lakewood, or Bellflower: which fits your life?</a>
-            <a href="move-relocate/where-should-spacex-employees-live-south-bay-after-ipo/">Where SpaceX employees may compare South Bay options</a>
-            <a href="move-relocate/best-gateway-cities-for-buyers-who-need-access-to-both-la-and-orange-county/">Gateway cities for LA and Orange County access</a>
-            <a href="sell/the-90-day-downsizer-readiness-check-for-longtime-la-and-oc-homeowners/">90-day downsizer readiness check</a>
-            <a href="sell/empty-nesters-in-lakewood-cerritos-or-long-beach-keep-the-house-or-convert-the-equity/">Empty nesters: keep the house or convert the equity?</a>
-          </section>
-        </div>
-      </section>
-
-      <section class="section local-section" id="local-areas" aria-labelledby="local-title">
-        <div class="section-heading local-heading">
-          <p class="eyebrow">Local Areas</p>
-          <h2 id="local-title">Compare city, neighborhood, and market context before you choose a path.</h2>
-          <p>Use local context when your decision depends on commute, lifestyle, housing type, schools, budget, or resale flexibility.</p>
-        </div>
-        <div class="tabs-row local-tabs" role="tablist" aria-label="Local area groups">
-          <button type="button" role="tab" aria-selected="true" data-local-tab="nearby">Nearby</button>
-          <button type="button" role="tab" aria-selected="false" data-local-tab="south-bay">South Bay</button>
-          <button type="button" role="tab" aria-selected="false" data-local-tab="long-beach-area">Long Beach Area</button>
-          <button type="button" role="tab" aria-selected="false" data-local-tab="gateway-cities">Gateway Cities</button>
-          <button type="button" role="tab" aria-selected="false" data-local-tab="orange-county">Orange County</button>
-          <button type="button" role="tab" aria-selected="false" data-local-tab="la-county">LA County</button>
-        </div>
-        <div class="carousel-shell">
-          <button class="carousel-button" type="button" data-carousel-prev="local-cards" aria-label="Previous local area">Prev</button>
-          <div class="area-track" id="local-cards" role="tabpanel" tabindex="0" aria-live="polite"></div>
-          <button class="carousel-button" type="button" data-carousel-next="local-cards" aria-label="Next local area">Next</button>
-        </div>
-        <div class="local-support">
-          <a href="https://www.instagram.com/explore/search/keyword/?q=South%20Bay%20real%20estate%20Israel%20Hernandez" target="_blank" rel="noreferrer" data-analytics-platform="instagram" data-analytics-placement="local-areas" data-analytics-intent="local-area-research">
-            <strong>See neighborhood clips</strong>
-            <span>Use short local clips for lifestyle context after choosing a city to research.</span>
-            <span class="external-icon" aria-hidden="true"></span>
-          </a>
-        </div>
-      </section>
-
-      <section class="section resources-section" id="resources" aria-labelledby="resources-title">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Decision Support</p>
-            <h2 id="resources-title">Use support resources after you know what you are researching.</h2>
-          </div>
-          <button class="button button-secondary" type="button" data-open-search>Search local guidance</button>
-        </div>
-        <div class="resource-row" aria-label="Helpful support resources">
-          <a class="resource-item" href="buy/#article-library" data-intent="resource-guide">
-            <svg class="resource-icon" aria-hidden="true" viewBox="0 0 48 48">
-              <path d="M12 11h10c4 0 7 3 7 7v20c0-3-3-5-7-5H12z"></path>
-              <path d="M36 11H26c-4 0-7 3-7 7v20c0-3 3-5 7-5h10z"></path>
-              <path d="M17 18h7"></path>
-              <path d="M17 24h7"></path>
-            </svg>
-            <strong>Find the right guide</strong>
-            <span>Helps with buyer, seller, moving, homeowner, investing, or Local Areas research.</span>
-            <em>Opens the intent tabs above.</em>
-          </a>
-          <a class="resource-item" href="local-areas/#article-library" data-intent="resource-local-areas">
-            <svg class="resource-icon" aria-hidden="true" viewBox="0 0 48 48">
-              <path d="M10 15l10-4 10 4 8-3v24l-8 3-10-4-10 4z"></path>
-              <path d="M20 11v24"></path>
-              <path d="M30 15v24"></path>
-            </svg>
-            <strong>Compare Local Areas</strong>
-            <span>Useful when city fit changes budget, commute, lifestyle, or strategy.</span>
-            <em>Jumps to local discovery cards.</em>
-          </a>
-          <a class="resource-item" href="#contact-israel" data-intent="market">
-            <svg class="resource-icon" aria-hidden="true" viewBox="0 0 48 48">
-              <path d="M12 36h24"></path>
-              <path d="M16 32V22"></path>
-              <path d="M24 32V14"></path>
-              <path d="M32 32V19"></path>
-              <path d="M13 18l10-7 8 5 5-4"></path>
-            </svg>
-            <strong>Ask a market question</strong>
-            <span>Best when the answer depends on city, property type, timing, or condition.</span>
-            <em>Starts a specific question with Israel.</em>
-          </a>
-          <a class="resource-item" href="#contact-israel" data-intent="home-value">
-            <svg class="resource-icon" aria-hidden="true" viewBox="0 0 48 48">
-              <path d="M12 24l12-10 12 10v13H12z"></path>
-              <path d="M20 37v-9h8v9"></path>
-              <path d="M34 13v8"></path>
-              <path d="M16 17l8-7 8 7"></path>
-            </svg>
-            <strong>Think through a home value path</strong>
-            <span>Useful before choosing repairs, price, timing, or an as-is route.</span>
-            <em>Routes to the contact card.</em>
-          </a>
-          <button class="resource-item resource-button" type="button" data-open-search data-query="FAQs source notes">
-            <svg class="resource-icon" aria-hidden="true" viewBox="0 0 48 48">
-              <path d="M24 36h.01"></path>
-              <path d="M18 18a6 6 0 1 1 9 5.2c-2.1 1.2-3 2.6-3 5.3"></path>
-              <path d="M10 24a14 14 0 1 0 28 0 14 14 0 0 0-28 0z"></path>
-            </svg>
-            <strong>Review FAQs and source notes</strong>
-            <span>Helps you understand assumptions behind guides, market notes, and tools.</span>
-            <em>Opens search with suggested terms.</em>
-          </button>
-        </div>
-        <div class="social-support" aria-label="External support links">
-          <a href="https://www.youtube.com/results?search_query=Israel+Hernandez+Manhattan+Hermosa+Redondo+Torrance+Long+Beach+real+estate" target="_blank" rel="noreferrer" data-analytics-platform="youtube" data-analytics-placement="resources" data-analytics-intent="education">
-            <span class="support-label">Video education</span>
-            <strong>Watch local market videos</strong>
-            <span>Buyer, seller, and area education for Manhattan Beach, Hermosa Beach, Redondo Beach, Torrance, and Long Beach.</span>
-            <span class="external-icon" aria-hidden="true"></span>
-          </a>
-          <a href="https://www.linkedin.com/search/results/all/?keywords=Israel%20Hernandez%20Think%20Boutiq%20Real%20Estate" target="_blank" rel="noreferrer" data-analytics-platform="linkedin" data-analytics-placement="resources" data-analytics-intent="credibility">
-            <span class="support-label">Credential check</span>
-            <strong>Verify professional profile</strong>
-            <span>Use LinkedIn for advisor credibility after deciding you may want a conversation.</span>
-            <span class="external-icon" aria-hidden="true"></span>
-          </a>
-        </div>
-      </section>
-
-      <section class="section advisor-section" id="contact-israel" aria-labelledby="advisor-title">
-        <div class="advisor-card">
-          <div class="advisor-media">
+      <section class="home-section home-advisor-section" id="contact-israel" aria-labelledby="advisor-title">
+        <div class="advisor-card home-advisor-card">
+          <div class="home-advisor-media">
             <img src="assets/israel-hernandez-headshot.jpg" alt="Israel Hernandez">
           </div>
-          <div class="advisor-copy">
-            <p class="eyebrow">Advisor / Contact</p>
-            <h2 id="advisor-title">Talk through the decision before choosing the path.</h2>
-            <p>Israel helps buyers, sellers, homeowners, relocators, investors, and local-area researchers compare options privately before the next step gets expensive or rushed.</p>
-            <div class="advisor-credentials">
-              <strong>Israel Hernandez</strong>
-              <span>Think Boutiq Real Estate</span>
-              <span>DRE 02148476</span>
+
+          <div class="home-advisor-copy">
+            <p class="eyebrow">Context advisor</p>
+            <h2 id="advisor-title">Not sure which context matters most? Talk through your situation.</h2>
+            <p>Use this when you know the decision, but the useful context is not obvious yet. Share the basics and Israel can help sort whether area fit, timing, pricing, or resale flexibility should lead the next step.</p>
+            <div class="home-advisor-notes" aria-label="Advisor card context">
+              <span>Area fit</span>
+              <span>Timing</span>
+              <span>Pricing</span>
             </div>
-            <div class="advisor-actions">
-              <a class="button button-primary" href="tel:+14242431233">Call or text (424) 243-1233</a>
-              <a class="button button-secondary" href="mailto:Homesbyisraelhe@gmail.com">Email Israel</a>
-            </div>
-            <a class="profile-link" href="https://www.linkedin.com/search/results/all/?keywords=Israel%20Hernandez%20Think%20Boutiq%20Real%20Estate" target="_blank" rel="noreferrer" data-analytics-platform="linkedin" data-analytics-placement="advisor-contact" data-analytics-intent="credibility">
-              Verify professional profile
-              <span class="external-icon" aria-hidden="true"></span>
-            </a>
           </div>
-          <form class="contact-form contact-intake-form" action="/api/leads" method="post" data-home-contact-form data-intake-form>
-            <p class="form-step-label">Step 1 of 2</p>
-            <p class="form-privacy-note">Send your contact info first. The next step is optional and only asks for helpful context.</p>
+
+          <form class="contact-form home-contact-form" action="/api/leads" method="post" data-home-contact-form data-intake-form>
+            <p class="form-step-label">Step 1 of 2: Contact info</p>
+
             <div class="form-grid">
-              <label class="form-field">First name <span aria-hidden="true">*</span>
+              <label><span class="field-label">First name <span class="required-mark">*</span></span>
                 <input name="first_name" autocomplete="given-name" required>
               </label>
-              <label class="form-field">Last name <span aria-hidden="true">*</span>
+
+              <label><span class="field-label">Last name <span class="required-mark">*</span></span>
                 <input name="last_name" autocomplete="family-name" required>
               </label>
-              <label class="form-field form-field-full">Email <span aria-hidden="true">*</span>
+
+              <label class="form-field-full"><span class="field-label">Email <span class="required-mark">*</span></span>
                 <input name="email" type="email" autocomplete="email" required>
               </label>
-              <label class="form-field form-field-full">Phone <span class="optional-label">Optional</span>
+
+              <label class="form-field-full"><span class="field-label">Phone <span class="optional-label">Optional</span></span>
                 <input name="phone" type="tel" autocomplete="tel" inputmode="tel">
               </label>
-              <label class="phone-consent form-field-full" data-phone-consent hidden>
+
+              <label class="phone-consent" data-phone-consent hidden>
                 <input name="phone_consent" type="checkbox" value="yes">
                 <span>I agree that Israel Hernandez and Think Boutiq Real Estate may call or text me about my real estate question. Message/data rates may apply.</span>
               </label>
             </div>
-            <button class="button button-primary" type="submit">Send My Info</button>
-            <p class="form-privacy-note">Phone is optional. Call/text consent appears only if you enter a number.</p>
+
+            <p class="form-privacy-note">The next step is optional and asks for helpful context so the reply can be more specific.</p>
+            <button class="button button-primary" type="submit">Talk Through My Situation</button>
           </form>
+
           <div class="intake-step-modal" data-intake-modal hidden role="dialog" aria-modal="true" aria-labelledby="homepage-intake-step-title">
             <div class="intake-step-backdrop" data-intake-close></div>
             <div class="intake-step-dialog" role="document">
@@ -777,11 +646,13 @@
                   <h2 id="homepage-intake-step-title">Add a little context?</h2>
                   <p data-intake-modal-copy>Answer only what is easy. These details help Israel reply with a more useful next step.</p>
                 </div>
-                <button class="intake-step-close" type="button" aria-label="Close optional context" data-intake-close>×</button>
+                <button class="intake-step-close" type="button" aria-label="Close optional context" data-intake-close>&times;</button>
               </header>
-              <form class="intake-step-form" data-intake-step-form>
-                <div class="intake-step-fields" data-intake-step-fields></div>
+
+              <form data-intake-step-form class="intake-step-form">
+                <div data-intake-step-fields class="intake-step-fields"></div>
               </form>
+
               <footer class="intake-step-actions">
                 <button class="button button-secondary" type="button" data-intake-skip>Skip for now</button>
                 <button class="button button-primary" type="button" data-intake-send>Send details</button>
@@ -791,7 +662,6 @@
         </div>
       </section>
     </main>
-
     <footer class="site-footer">
       <div class="footer-brand">
         <div class="footer-identity">
@@ -807,101 +677,12 @@
         <img src="assets/think-boutiq-logo-dark.png" alt="Think Boutiq Real Estate">
       </div>
       <div class="footer-taxonomy">
-        <section>
-          <h2>Buying</h2>
-          <a href="buy/#article-library">Buyer plan</a>
-          <a href="local-areas/#article-library">Compare Local Areas</a>
-          <a href="#contact-israel">Ask a buyer question</a>
-        </section>
-        <section>
-          <h2>Selling</h2>
-          <a href="sell/#article-library">Prep and pricing</a>
-          <a href="sell/#article-library">Home value path</a>
-          <a href="#contact-israel">Private seller question</a>
-        </section>
-        <section>
-          <h2>Moving / Relocation</h2>
-          <a href="move-relocate/#article-library">Move sequence</a>
-          <a href="local-areas/#article-library">Commute and city fit</a>
-          <a href="#contact-israel">Timing question</a>
-        </section>
-        <section>
-          <h2>Homeowners</h2>
-          <a href="homeowners/#article-library">Sell, rent, or hold</a>
-          <a href="homeowners/#article-library">Repair tradeoffs</a>
-          <a href="#contact-israel">Private owner question</a>
-        </section>
-        <section>
-          <h2>Investing</h2>
-          <a href="invest/#article-library">Rental decisions</a>
-          <a href="invest/#article-library">Market question</a>
-          <a href="#contact-israel">Risk review</a>
-        </section>
-        <section>
-          <h2>Local Areas</h2>
-          <a href="local-areas/#article-library">Nearby cities</a>
-          <a href="local-areas/?q=South%20Bay#article-library">South Bay</a>
-          <a href="local-areas/?q=Long%20Beach#article-library">Long Beach Area</a>
-        </section>
-        <section>
-          <h2>Market Trends</h2>
-          <a href="housing-market-pulse/">Housing Market Pulse</a>
-          <a href="market-trends/">Search market trends</a>
-          <a href="market-trends/?view=zip#article-library">Search by ZIP</a>
-        </section>
-        <section>
-          <h2>Resources</h2>
-          <a href="#resources">Find the right guide</a>
-          <a href="#resources">FAQs / Source Notes</a>
-          <a href="#resources">Watch local market videos</a>
-        </section>
-        <section>
-          <h2>Guides</h2>
-          <a href="buy/#article-library">Buyer guidance</a>
-          <a href="sell/#article-library">Seller guidance</a>
-          <a href="homeowners/#article-library">Homeowner guidance</a>
-        </section>
-        <section>
-          <h2>Market Updates</h2>
-          <a href="#resources">Ask a local market question</a>
-          <a href="move-relocate/#article-library">City-specific updates</a>
-          <a href="#resources">Video education</a>
-        </section>
-        <section>
-          <h2>Contact</h2>
-          <a href="#contact-israel">Contact Israel</a>
-          <a href="mailto:Homesbyisraelhe@gmail.com">Email Israel</a>
-          <a href="tel:+14242431233">Call or text</a>
-        </section>
-        <section>
-          <h2>Credentials / Compliance</h2>
-          <span>Think Boutiq Real Estate</span>
-          <span>Israel Hernandez | DRE 02148476</span>
-          <span>Equal Housing Opportunity.</span>
-          <span>Information is for general guidance, not legal, tax, or lending advice.</span>
-        </section>
-      </div>
-      <div class="footer-social">
-        <a href="https://www.youtube.com/results?search_query=Israel+Hernandez+South+Bay+Long+Beach+real+estate" target="_blank" rel="noreferrer" data-analytics-platform="youtube" data-analytics-placement="footer" data-analytics-intent="education">
-          <strong>Watch local market videos</strong>
-          <span>Buyer, seller, and area education for South Bay and Long Beach decisions.</span>
-          <span class="external-icon" aria-hidden="true"></span>
-        </a>
-        <a href="https://www.instagram.com/explore/search/keyword/?q=South%20Bay%20real%20estate%20Israel%20Hernandez" target="_blank" rel="noreferrer" data-analytics-platform="instagram" data-analytics-placement="footer" data-analytics-intent="local-area-research">
-          <strong>See neighborhood clips</strong>
-          <span>Short local clips for lifestyle context after choosing a city to research.</span>
-          <span class="external-icon" aria-hidden="true"></span>
-        </a>
-        <a href="https://www.google.com/search?q=Israel+Hernandez+Think+Boutiq+Real+Estate" target="_blank" rel="noreferrer" data-analytics-platform="google" data-analytics-placement="footer" data-analytics-intent="credibility">
-          <strong>Review public profile</strong>
-          <span>Use public profile signals when verifying credentials before a conversation.</span>
-          <span class="external-icon" aria-hidden="true"></span>
-        </a>
-        <a href="https://www.facebook.com/search/top?q=Israel%20Hernandez%20real%20estate" target="_blank" rel="noreferrer" data-analytics-platform="facebook" data-analytics-placement="footer" data-analytics-intent="local-updates">
-          <strong>Follow local updates</strong>
-          <span>Ongoing community and market context outside the main decision paths.</span>
-          <span class="external-icon" aria-hidden="true"></span>
-        </a>
+        <section><h2>Buying</h2><a href="buy/#article-library">Buyer plan</a><a href="buy/#article-library">Compare areas</a><a href="index.html#contact-israel">Ask a buyer question</a></section>
+        <section><h2>Selling</h2><a href="sell/#article-library">Prep and pricing</a><a href="sell/#article-library">Repair tradeoffs</a><a href="index.html#contact-israel">Private seller question</a></section>
+        <section><h2>Moving / Relocation</h2><a href="move-relocate/#article-library">Move sequence</a><a href="move-relocate/#article-library">Timing and commute</a><a href="index.html#contact-israel">Timing question</a></section>
+        <section><h2>Homeowners</h2><a href="homeowners/#article-library">Sell, rent, or hold</a><a href="homeowners/#article-library">Home value path</a><a href="index.html#contact-israel">Private owner question</a></section>
+        <section><h2>Investing</h2><a href="invest/#article-library">Rental decisions</a><a href="invest/#article-library">Market question</a><a href="index.html#contact-israel">Risk review</a></section>
+        <section><h2>Credentials / Compliance</h2><span>Think Boutiq Real Estate</span><span>Israel Hernandez | DRE 02148476</span><span>Equal Housing Opportunity.</span><span>Information is for general guidance, not legal, tax, or lending advice.</span></section>
       </div>
       <div class="footer-bottom">
         <p>Serving real estate decisions across the South Bay, Long Beach Area, Gateway Cities, Los Angeles County, Orange County, and nearby Southern California communities.</p>
@@ -910,7 +691,6 @@
     </footer>
     <script src="library-data.js"></script>
     <script src="guidance-search.js"></script>
-    <script src="lead-client.js?v=lead-routing-20260702"></script>
-    <script src="script.js?v=homepage-nav-20260708a"></script>
+    <script src="script.js?v=nav-routing-20260708a"></script>
   </body>
 </html>
